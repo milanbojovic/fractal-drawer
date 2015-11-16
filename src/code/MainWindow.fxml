@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.MainWindow">
+<VBox minHeight="600.0" minWidth="800.0" stylesheets="@MainWindow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.MainWindow">
 <children>
     <MenuBar VBox.vgrow="NEVER">
         <menus>
@@ -46,15 +49,37 @@
             </Menu>
         </menus>
     </MenuBar>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
-        <children>
-            <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
-                <font>
-                    <Font size="18.0" />
-                </font>
-            </Label>
-            <Button fx:id="dugme" layoutY="2.0" mnemonicParsing="false" onAction="#method2" text="button" />
-        </children>
-    </AnchorPane>
+      <AnchorPane prefHeight="476.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane dividerPositions="0.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane>
+                     <children>
+                        <VBox prefHeight="371.0" prefWidth="186.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="15.0" prefWidth="200.0" style="-fx-alignment: center;" text="Controls" />
+                              <HBox prefHeight="100.0" prefWidth="161.0" spacing="5.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" text="Start" />
+                                    <Button fx:id="draw" mnemonicParsing="false" onAction="#drawRectangle" text="Button" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </padding>
+                              </HBox>
+                              <ImageView fitHeight="163.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+                                 <image>
+                                    <Image url="@Fractal_img.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="canwrap" prefHeight="200.0" prefWidth="200.0" />
+              </items>
+            </SplitPane>
+         </children>
+      </AnchorPane>
 </children>
 </VBox>

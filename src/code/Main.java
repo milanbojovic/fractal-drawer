@@ -2,6 +2,7 @@ package code;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -10,9 +11,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
         primaryStage.setTitle("Fractal Drawer");
-        primaryStage.setScene(new Scene(root, 1024, 768));
+        Resolution.width = 1024;
+        Resolution.height = 768;
+
+        Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
+        Scene scene = new Scene(root, Resolution.width, Resolution.height);
+
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
