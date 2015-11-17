@@ -72,6 +72,8 @@
                                     <Image url="@Fractal_img-1.jpg" />
                                  </image>
                               </ImageView>
+                              <Button mnemonicParsing="false" onAction="#setDrawSiepenskiTriangleMinus" text="SERP--" />
+                              <Button mnemonicParsing="false" onAction="#drawSerpinskiTrianglePlus" text="SERP++" />
                            </children>
                         </VBox>
                      </children>
