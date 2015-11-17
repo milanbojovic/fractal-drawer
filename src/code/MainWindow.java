@@ -19,46 +19,102 @@ public class MainWindow implements Initializable{
     public Canvas canvas;
     private GraphicsContext gContext;
 
+    double cWidth;
+    double cHeight;
+
+    int level, prevLevel = 0;
+    int drawCirclesCount = 0;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        canvas = new Canvas(200,200);
+        canvas = new Canvas(300, 300);
         gContext = canvas.getGraphicsContext2D();
-        /*double w = canvas.getWidth();
-        double h = canvas.getHeight();*/
-
-        gContext.setStroke(Color.BLUE);
-        gContext.setLineWidth(5);
-        gContext.strokeLine(0, 0, 40, 40);
-
         canwrap.getChildren().add(canvas);
 
         System.out.println("Initialise method has been executed");
+        System.out.println("Init method - anchor width:" + canwrap.getWidth());
+        System.out.println("Init method - anchor height:" + canwrap.getHeight());
+    }
+
+    public void resizeCanvas(){
+        cWidth  = canwrap.getWidth();
+        cHeight = canwrap.getHeight();
+        canvas.setWidth(cWidth);
+        canvas.setHeight(cHeight);
+        }
+    @FXML
+    public void levelInc(){
+        resizeCanvas();
+        drawCircle();
+        prevLevel = level;
+        level++;
     }
 
     @FXML
-    public void drawRectangle(){
-        System.out.println("Draw rectangle method called!");
+    public void levelDec(){
+        double radius=cWidth/5; //radius of first circle
+        double xMid=cWidth/2, yMid=cHeight/2; //center point (x,y) of circle
 
-        gContext.setFill(Color.GREEN);
-        gContext.setStroke(Color.BLUE);
-        gContext.setLineWidth(5);
-        gContext.strokeLine(40, 10, 10, 40);
-        gContext.fillOval(10, 60, 30, 30);
-        gContext.strokeOval(60, 60, 30, 30);
-        gContext.fillRoundRect(110, 60, 30, 30, 10, 10);
-        gContext.strokeRoundRect(160, 60, 30, 30, 10, 10);
-        gContext.fillArc(10, 110, 30, 30, 45, 240, ArcType.OPEN);
-        gContext.fillArc(60, 110, 30, 30, 45, 240, ArcType.CHORD);
-        gContext.fillArc(110, 110, 30, 30, 45, 240, ArcType.ROUND);
-        gContext.strokeArc(10, 160, 30, 30, 45, 240, ArcType.OPEN);
-        gContext.strokeArc(60, 160, 30, 30, 45, 240, ArcType.CHORD);
-        gContext.strokeArc(110, 160, 30, 30, 45, 240, ArcType.ROUND);
-        gContext.fillPolygon(new double[]{10, 40, 10, 40},
-                new double[]{210, 210, 240, 240}, 4);
-        gContext.strokePolygon(new double[]{60, 90, 60, 90},
-                new double[]{210, 210, 240, 240}, 4);
-        gContext.strokePolyline(new double[]{110, 140, 110, 140},
-                new double[]{210, 210, 240, 240}, 4);
+        resizeCanvas();
+        if(level >= 1) {
+            gContext.clearRect(0, 0, cWidth, cHeight);
+            //Draw first circle and horisontal line
+            gContext.strokeLine(0, yMid, cWidth-1, yMid);
+            gContext.strokeOval(xMid-radius,yMid-radius,radius*2,radius*2);
+            if(prevLevel < level) {
+                prevLevel = level;
+                level-=2;
+            }
+            else {
+                prevLevel = level;
+                level--;
+            }
+            drawCircle();
+        }
+    }
+
+
+    public void drawCircle(){
+        System.out.println("Draw circle method called!");
+        double radius=cWidth/5; //radius of first circle
+        double xMid=cWidth/2, yMid=cHeight/2; //center point (x,y) of circle
+
+        if(level == 0){
+            //Draw first line
+            gContext.setStroke(Color.BLUE);
+            gContext.setLineWidth(2);
+
+            //Draw first circle and horisontal line
+            gContext.strokeLine(0, yMid, cWidth-1, yMid);
+            gContext.strokeOval(xMid-radius,yMid-radius,radius*2,radius*2);
+        }
+        else{
+            drawCircles(xMid, yMid, radius, 1);
+        }
+    }
+
+    void drawCircles (double xMid, double yMid, double radius, int depth){
+
+            if (radius >= 5 && level <= 6) {
+                //used to position left and right circles
+                double xLeft = xMid - radius;
+                double yLeft = yMid;
+
+                double xRight = xMid + radius;
+                double yRight = yMid;
+
+                //draw circle to the left
+                gContext.strokeOval(xLeft - radius / 2, yLeft - radius / 2, radius, radius);
+
+                //draw circle to the right
+                gContext.strokeOval(xRight - radius / 2, yRight - radius / 2, radius, radius);
+
+                if(level > depth) {
+                    drawCircles(xLeft, yLeft, radius / 2, depth+1);
+                    drawCircles(xRight, yRight, radius / 2, depth+1);
+                }
+            }
+        //}
     }
 
     public void OpenAboutPage(){

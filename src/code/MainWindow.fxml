@@ -60,8 +60,8 @@
                               <Label alignment="CENTER" prefHeight="15.0" prefWidth="200.0" style="-fx-alignment: center;" text="Controls" />
                               <HBox prefHeight="100.0" prefWidth="161.0" spacing="5.0">
                                  <children>
-                                    <Button mnemonicParsing="false" text="Start" />
-                                    <Button fx:id="draw" mnemonicParsing="false" onAction="#drawRectangle" text="Button" />
+                                    <Button mnemonicParsing="false" onAction="#levelDec" text="Level --" />
+                                    <Button mnemonicParsing="false" onAction="#levelInc" text="Level ++" />
                                  </children>
                                  <padding>
                                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
@@ -69,14 +69,14 @@
                               </HBox>
                               <ImageView fitHeight="163.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
                                  <image>
-                                    <Image url="@Fractal_img.png" />
+                                    <Image url="@Fractal_img-1.jpg" />
                                  </image>
                               </ImageView>
                            </children>
                         </VBox>
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="canwrap" prefHeight="200.0" prefWidth="200.0" />
+                  <AnchorPane fx:id="canwrap" />
               </items>
             </SplitPane>
          </children>
