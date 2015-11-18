@@ -60,8 +60,8 @@
                               <Label alignment="CENTER" prefHeight="15.0" prefWidth="200.0" style="-fx-alignment: center;" text="Controls" />
                               <HBox prefHeight="100.0" prefWidth="161.0" spacing="5.0">
                                  <children>
-                                    <Button mnemonicParsing="false" onAction="#levelDec" text="Level --" />
-                                    <Button mnemonicParsing="false" onAction="#levelInc" text="Level ++" />
+                                    <Button mnemonicParsing="false" onAction="#drawPrevDepthLevel" text="Level --" />
+                                    <Button mnemonicParsing="false" onAction="#drawNextDepthLevel" text="Level ++" />
                                  </children>
                                  <padding>
                                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
@@ -72,8 +72,8 @@
                                     <Image url="@Fractal_img-1.jpg" />
                                  </image>
                               </ImageView>
-                              <Button mnemonicParsing="false" onAction="#setDrawSiepenskiTriangleMinus" text="SERP--" />
-                              <Button mnemonicParsing="false" onAction="#drawSerpinskiTrianglePlus" text="SERP++" />
+                              <Button mnemonicParsing="false" onAction="#drawPrevDepthLevel" text="SERP--" />
+                              <Button mnemonicParsing="false" onAction="#drawNextDepthLevel" text="SERP++" />
                            </children>
                         </VBox>
                      </children>
