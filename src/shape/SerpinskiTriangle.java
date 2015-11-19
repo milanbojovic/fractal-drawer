@@ -21,38 +21,32 @@ public class SerpinskiTriangle extends FractalShape {
         y3 = 10;
     }
 
-    @Override
-    void drawLevel0() {
-        //Draw the 3 sides of the triangle as black lines
-        gContext.strokeLine((int)x1, (int)y1, (int)x2, (int)y2);
-        gContext.strokeLine((int)x1, (int)y1, (int)x3, (int)y3);
-        gContext.strokeLine((int)x2, (int)y2, (int)x3, (int)y3);
-    }
 
     @Override
     public void drawNextDepthLevel() {
-        drawLevel0();
-        //Call the recursive function that'll draw all the rest. The 3 corners of it are always the centers of sides, so they're averages
-        if(getCurrentDepth() > 0) {
-            subTriangle
-                    (
-                            1, //This represents the first recursion
-                            (x1 + x2) / 2, //x coordinate of first corner
-                            (y1 + y2) / 2, //y coordinate of first corner
-                            (x1 + x3) / 2, //x coordinate of second corner
-                            (y1 + y3) / 2, //y coordinate of second corner
-                            (x2 + x3) / 2, //x coordinate of third corner
-                            (y2 + y3) / 2  //y coordinate of third corner
-                    );
+        if(getCurrentDepth() != getMaxDepth()){
+            currentDepthInc();
+                drawLevel0();
+                //Call the recursive function that'll draw all the rest. The 3 corners of it are always the centers of sides, so they're averages
+                if(getCurrentDepth() > 0) {
+                    subTriangle
+                            (
+                                    1, //This represents the first recursion
+                                    (x1 + x2) / 2, //x coordinate of first corner
+                                    (y1 + y2) / 2, //y coordinate of first corner
+                                    (x1 + x3) / 2, //x coordinate of second corner
+                                    (y1 + y3) / 2, //y coordinate of second corner
+                                    (x2 + x3) / 2, //x coordinate of third corner
+                                    (y2 + y3) / 2  //y coordinate of third corner
+                            );
+                }
         }
-        currentDepthInc();
     }
 
     @Override
     public void drawPrevDepthLevel() {
-
-        if(getCurrentDepth() >= 0){
-            gContext.clearRect(0, 0, canvasWidth, canvasHeight);
+        if(getCurrentDepth() > 0){
+            clearCanvas();
             currentDepthDec();
             drawLevel0();
 
@@ -72,6 +66,14 @@ public class SerpinskiTriangle extends FractalShape {
         }
     }
 
+    @Override
+    void drawLevel0() {
+        //Draw the 3 sides of the triangle as black lines
+        gContext.strokeLine((int)x1, (int)y1, (int)x2, (int)y2);
+        gContext.strokeLine((int)x1, (int)y1, (int)x3, (int)y3);
+        gContext.strokeLine((int)x2, (int)y2, (int)x3, (int)y3);
+    }
+
     //The recursive function that'll draw all the upside down triangles
     void subTriangle(int n, float x1, float y1, float x2, float y2, float x3, float y3)
     {
@@ -83,7 +85,6 @@ public class SerpinskiTriangle extends FractalShape {
         //Calls itself 3 times with new corners, but only if the current number of recursions is smaller than the maximum depth
         if(n < getMaxDepth() && n < getCurrentDepth())
         {
-            System.out.println("Rec func n=" + n);
             //Smaller triangle 1
             subTriangle
                     (

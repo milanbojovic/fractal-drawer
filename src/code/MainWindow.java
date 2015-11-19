@@ -4,10 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.ArcType;
 import shape.FractalShape;
 import shape.HorizontalCircles;
 import shape.SerpinskiTriangle;
@@ -62,15 +59,5 @@ public class MainWindow implements Initializable{
         System.out.println("Opening about page");
         About.display();
     }
-
-
-
-
-
-
-
-
-
-
 
 }
