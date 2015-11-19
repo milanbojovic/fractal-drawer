@@ -16,7 +16,9 @@ public abstract class FractalShape {
     protected GraphicsContext gContext;
 
     abstract void drawLevel0();
+
     public abstract void drawNextDepthLevel();
+
     public abstract void drawPrevDepthLevel();
 
     public FractalShape(int maxDepth, Canvas canvas) {
@@ -26,15 +28,11 @@ public abstract class FractalShape {
         currentDepth = -1;
 
         canvasWidth = canvas.getWidth();
-        canvasHeight= canvas.getHeight();
+        canvasHeight = canvas.getHeight();
     }
 
     public int getMaxDepth() {
         return maxDepth;
-    }
-
-    public void setMaxDepth(int maxDepth) {
-        this.maxDepth = maxDepth;
     }
 
     protected int getCurrentDepth() {
@@ -42,17 +40,17 @@ public abstract class FractalShape {
     }
 
     public void currentDepthInc() {
-        if(currentDepth < maxDepth) previousDepth = currentDepth++;
+        if (currentDepth < maxDepth) previousDepth = currentDepth++;
         System.out.println("(INC EVENT) currDep=" + currentDepth + " (" + previousDepth + ")");
     }
 
     public void currentDepthDec() {
-        if(currentDepth > 0)
+        if (currentDepth > 0)
             previousDepth = currentDepth--;
         System.out.println("(DEC EVENT) currDep=" + currentDepth + " (" + previousDepth + ")");
     }
 
-    protected void clearCanvas(){
+    protected void clearCanvas() {
         gContext.clearRect(0, 0, canvasWidth, canvasHeight);
     }
 }

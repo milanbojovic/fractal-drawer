@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
-<?import java.lang.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.canvas.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
@@ -12,7 +9,7 @@
 <children>
     <MenuBar VBox.vgrow="NEVER">
         <menus>
-            <Menu mnemonicParsing="false" text="File">
+            <Menu mnemonicParsing="false" text="_File">
                 <items>
                     <MenuItem mnemonicParsing="false" text="New" />
                     <MenuItem mnemonicParsing="false" text="Open…" />
@@ -28,21 +25,13 @@
                     <MenuItem mnemonicParsing="false" text="Quit" />
                 </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Edit">
+            <Menu mnemonicParsing="false" text="_Edit">
                 <items>
-                    <MenuItem mnemonicParsing="false" text="Undo" />
-                    <MenuItem mnemonicParsing="false" text="Redo" />
+                    <MenuItem mnemonicParsing="false" onAction="#resetCanvas" text="Clear Canvas" />
                     <SeparatorMenuItem mnemonicParsing="false" />
-                    <MenuItem mnemonicParsing="false" text="Cut" />
-                    <MenuItem mnemonicParsing="false" text="Copy" />
-                    <MenuItem mnemonicParsing="false" text="Paste" />
-                    <MenuItem mnemonicParsing="false" text="Delete" />
-                    <SeparatorMenuItem mnemonicParsing="false" />
-                    <MenuItem mnemonicParsing="false" text="Select All" />
-                    <MenuItem mnemonicParsing="false" text="Unselect All" />
                 </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Help">
+            <Menu mnemonicParsing="false" text="_Help">
                 <items>
                     <MenuItem mnemonicParsing="false" onAction="#OpenAboutPage" text="About" />
                 </items>
@@ -55,10 +44,10 @@
               <items>
                 <AnchorPane>
                      <children>
-                        <VBox prefHeight="371.0" prefWidth="186.0">
+                        <VBox prefHeight="371.0" prefWidth="186.0" spacing="4.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
                               <Label alignment="CENTER" prefHeight="15.0" prefWidth="200.0" style="-fx-alignment: center;" text="Controls" />
-                              <HBox prefHeight="100.0" prefWidth="161.0" spacing="5.0">
+                              <HBox spacing="5.0">
                                  <children>
                                     <Button mnemonicParsing="false" onAction="#drawPrevDepthLevel" text="Level --" />
                                     <Button mnemonicParsing="false" onAction="#drawNextDepthLevel" text="Level ++" />
@@ -67,13 +56,12 @@
                                     <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                                  </padding>
                               </HBox>
-                              <ImageView fitHeight="163.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-                                 <image>
-                                    <Image url="@Fractal_img-1.jpg" />
-                                 </image>
-                              </ImageView>
-                              <Button mnemonicParsing="false" onAction="#drawPrevDepthLevel" text="SERP--" />
-                              <Button mnemonicParsing="false" onAction="#drawNextDepthLevel" text="SERP++" />
+                              <Label alignment="CENTER" prefHeight="15.0" prefWidth="200.0" style="-fx-alignment: center;" text="FRACTAL SHAPES" textOverrun="CLIP">
+                                 <font>
+                                    <Font size="17.0" />
+                                 </font>
+                              </Label>
+                              <ListView fx:id="listView" VBox.vgrow="ALWAYS" />
                            </children>
                         </VBox>
                      </children>
