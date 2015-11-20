@@ -10,6 +10,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import shape.CantorSet;
 import shape.FractalShape;
 import shape.HorizontalCircles;
 import shape.SerpinskiTriangle;
@@ -37,6 +38,7 @@ public class MainWindow implements Initializable{
 
         listViewData.add("Horizontal Circles");
         listViewData.add("Serpinski Triangle");
+        listViewData.add("Cantor Set");
 
         listView.setItems(listViewData);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>(){
@@ -44,6 +46,7 @@ public class MainWindow implements Initializable{
             @Override
             public void handle(MouseEvent arg0) {
                 resetCanvas();
+                resizeCanvas();
                 selectedShape = createFractalObject(getCurrentSelection());
             }
 
@@ -90,6 +93,9 @@ public class MainWindow implements Initializable{
 
             case "Serpinski Triangle":
                 return new SerpinskiTriangle(7, canvas);
+
+            case "Cantor Set":
+                return new CantorSet(17, canvas);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
