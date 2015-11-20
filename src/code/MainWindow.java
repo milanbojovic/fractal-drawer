@@ -10,10 +10,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import shape.CantorSet;
-import shape.FractalShape;
-import shape.HorizontalCircles;
-import shape.SerpinskiTriangle;
+import shape.*;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -37,6 +34,7 @@ public class MainWindow implements Initializable{
         canwrap.getChildren().add(canvas);
 
         listViewData.add("Horizontal Circles");
+        listViewData.add("Horizontal and Vertical Circles");
         listViewData.add("Serpinski Triangle");
         listViewData.add("Cantor Set");
 
@@ -96,6 +94,9 @@ public class MainWindow implements Initializable{
 
             case "Cantor Set":
                 return new CantorSet(17, canvas);
+
+            case "Horizontal and Vertical Circles":
+                return new HorizontalAndVerticalCircles(7, canvas);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");

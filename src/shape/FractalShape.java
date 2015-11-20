@@ -21,6 +21,7 @@ public abstract class FractalShape {
 
     public abstract void drawPrevDepthLevel();
 
+
     public FractalShape(int maxDepth, Canvas canvas) {
         this.maxDepth = maxDepth;
         this.canvas = canvas;
@@ -29,6 +30,10 @@ public abstract class FractalShape {
 
         canvasWidth = canvas.getWidth();
         canvasHeight = canvas.getHeight();
+    }
+
+    public void setCurrentDepth(int currentDepth) {
+        this.currentDepth = currentDepth;
     }
 
     public int getMaxDepth() {
