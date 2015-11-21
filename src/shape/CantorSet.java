@@ -15,12 +15,12 @@ public class CantorSet extends FractalShape {
         super(maxDepth, canvas);
         this.x1 = 40;
         this.x2 = (int)canvasWidth - 40;
-        this.y = 50;
+        this.y = 150;
     }
 
     @Override
     void drawLevel0() {
-        gContext.strokeLine((int)x1, (int) y, (int)x2, (int) y);
+        gContext.strokeLine(x1, y, x2, y);
     }
 
     @Override
@@ -45,19 +45,19 @@ public class CantorSet extends FractalShape {
     public void drawCantorset(int n, double x1, double x2, double y){
         if(getCurrentDepth() > 0) {
             if (getCurrentDepth() <= getMaxDepth()) {
-                double newY = y + lineSpacing;
+                y += lineSpacing;
                 double  newLineLen = (x2 - x1)/3;
 
                 //draw left line
-                gContext.strokeLine(x1, newY, x1+newLineLen, newY);
+                gContext.strokeLine(x1, y, x1+newLineLen, y);
 
                 //draw right line
-                gContext.strokeLine(x2-newLineLen, newY, x2, newY);
+                gContext.strokeLine(x2-newLineLen, y, x2, y);
 
 
                 if(getCurrentDepth() > n) {
-                    drawCantorset(n+1, x1, x1+newLineLen, newY);
-                    drawCantorset(n+1, x2-newLineLen, x2, newY);
+                    drawCantorset(n+1, x1, x1+newLineLen, y);
+                    drawCantorset(n+1, x2-newLineLen, x2, y);
                 }
             }
         }

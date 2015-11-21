@@ -93,7 +93,7 @@ public class MainWindow implements Initializable{
                 return new SerpinskiTriangle(7, canvas);
 
             case "Cantor Set":
-                return new CantorSet(17, canvas);
+                return new CantorSet(7, canvas);
 
             case "Horizontal and Vertical Circles":
                 return new HorizontalAndVerticalCircles(7, canvas);
