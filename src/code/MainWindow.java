@@ -37,6 +37,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Horizontal and Vertical Circles");
         listViewData.add("Serpinski Triangle");
         listViewData.add("Cantor Set");
+        listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
 
         listView.setItems(listViewData);
@@ -98,6 +99,9 @@ public class MainWindow implements Initializable{
 
             case "Horizontal and Vertical Circles":
                 return new HorizontalAndVerticalCircles(7, canvas);
+
+            case "Koch Curve":
+                return new KochCurve(7, canvas);
 
             case "Koch Snowflake":
                 return new KochSnowFlake(7, canvas);
