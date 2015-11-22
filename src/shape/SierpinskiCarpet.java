@@ -21,6 +21,7 @@ public class SierpinskiCarpet extends FractalShape{
     }
 
     @Override
+
     void drawLevel0() {}
 
     @Override
