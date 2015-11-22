@@ -47,6 +47,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Horizontal Circles");
         listViewData.add("Horizontal and Vertical Circles");
         listViewData.add("Sierpinski Triangle");
+        listViewData.add("Sierpinski Carpet");
         listViewData.add("Cantor Set");
         listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
@@ -103,8 +104,11 @@ public class MainWindow implements Initializable{
             case "Horizontal Circles":
                 return new HorizontalCircles(7, canvas, webView);
 
-            case "Sirpinski Triangle":
+            case "Sierpinski Triangle":
                 return new SierpinskiTriangle(7, canvas, webView);
+
+            case "Sierpinski Carpet":
+                return new SierpinskiCarpet(5, canvas, webView);
 
             case "Cantor Set":
                 return new CantorSet(7, canvas, webView);
