@@ -1,6 +1,7 @@
 package shape;
 
 import javafx.scene.canvas.Canvas;
+import javafx.scene.web.WebView;
 
 /**
  * Created by milanbojovic on 21.11.15..
@@ -10,8 +11,8 @@ public class KochSnowFlake extends FractalShape {
     double x1, y1, x2, y2, x3, y3;
     double spacing = 100;
 
-    public KochSnowFlake(int maxDepth, Canvas canvas) {
-        super(maxDepth, canvas);
+    public KochSnowFlake(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
         setCurrentDepth(0);
 
         x1 = spacing;
@@ -20,6 +21,9 @@ public class KochSnowFlake extends FractalShape {
         y2 = y1;
         x3 = (int)canvasWidth / 2;
         y3 = spacing - spacing/6*5;
+
+        p = 4;
+        s = 3;
     }
 
     @Override
@@ -35,7 +39,9 @@ public class KochSnowFlake extends FractalShape {
             drawSnowFlake(getCurrentDepth(), x1, y1, x2, y2);
             drawSnowFlake(getCurrentDepth(), x2, y2, x3, y3);
             drawSnowFlake(getCurrentDepth(), x3, y3, x1, y1);
+            updateFractalDimension(getCurrentDepth());
         }
+
     }
 
     @Override
@@ -46,6 +52,7 @@ public class KochSnowFlake extends FractalShape {
             drawSnowFlake(getCurrentDepth(), x1, y1, x2, y2);
             drawSnowFlake(getCurrentDepth(), x2, y2, x3, y3);
             drawSnowFlake(getCurrentDepth(), x3, y3, x1, y1);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 

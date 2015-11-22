@@ -1,6 +1,7 @@
 package shape;
 
 import javafx.scene.canvas.Canvas;
+import javafx.scene.web.WebView;
 
 /**
  * Created by milanbojovic on 11/20/15.
@@ -11,11 +12,14 @@ public class CantorSet extends FractalShape {
     float x1, x2, y;
     float lineSpacing = 30; //spacing between vertical lines
 
-    public CantorSet(int maxDepth, Canvas canvas) {
-        super(maxDepth, canvas);
+    public CantorSet(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
         this.x1 = 40;
         this.x2 = (int)canvasWidth - 40;
         this.y = 150;
+
+        p = 2;
+        s = 3;
     }
 
     @Override
@@ -29,6 +33,7 @@ public class CantorSet extends FractalShape {
             currentDepthInc();
             drawLevel0();
             drawCantorset(1, x1, x2, y);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 
@@ -39,6 +44,7 @@ public class CantorSet extends FractalShape {
             currentDepthDec();
             drawLevel0();
             drawCantorset(1, x1, x2, y);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 

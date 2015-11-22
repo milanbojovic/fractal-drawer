@@ -2,6 +2,7 @@ package shape;
 
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
+import javafx.scene.web.WebView;
 
 /**
  * Created by milanbojovic on 21.11.15..
@@ -10,12 +11,15 @@ public class KochCurve extends FractalShape {
 
     double x1, y1, x5, y5;
 
-    public KochCurve(int maxDepth, Canvas canvas) {
-        super(maxDepth, canvas);
+    public KochCurve(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
         x1 = 10;
         y1 = canvasHeight/2;
         x5 = canvasWidth - 10;
         y5 = y1;
+
+        p = 4;
+        s = 3;
     }
 
     @Override
@@ -29,6 +33,7 @@ public class KochCurve extends FractalShape {
             currentDepthInc();
             drawLevel0();
             drawSnowFlake(1, x1, y1, x5, y5);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 
@@ -39,6 +44,7 @@ public class KochCurve extends FractalShape {
             currentDepthDec();
             drawLevel0();
             drawSnowFlake(1, x1, y1, x5, y5);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 

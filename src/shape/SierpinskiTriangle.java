@@ -1,17 +1,18 @@
 package shape;
 
 import javafx.scene.canvas.Canvas;
+import javafx.scene.web.WebView;
 
 /**
  * Created by milanbojovic on 11/18/15.
  * Uviversity graduate work "Fractal-Drawer"
  */
-public class SerpinskiTriangle extends FractalShape {
+public class SierpinskiTriangle extends FractalShape {
 
     float x1, y1, x2, y2, x3, y3;
 
-    public SerpinskiTriangle(int maxDepth, Canvas canvas) {
-        super(maxDepth, canvas);
+    public SierpinskiTriangle(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
 
         x1 = 10;
         y1 = (int)canvasHeight - 10;
@@ -19,6 +20,9 @@ public class SerpinskiTriangle extends FractalShape {
         y2 = (int)canvasHeight - 10;
         x3 = (int)canvasWidth / 2;
         y3 = 10;
+
+        p = 3;
+        s = 2;
     }
 
 
@@ -26,20 +30,21 @@ public class SerpinskiTriangle extends FractalShape {
     public void drawNextDepthLevel() {
         if(getCurrentDepth() != getMaxDepth()){
             currentDepthInc();
-                drawLevel0();
-                //Call the recursive function that'll draw all the rest. The 3 corners of it are always the centers of sides, so they're averages
-                if(getCurrentDepth() > 0) {
-                    subTriangle
+            drawLevel0();
+            //Call the recursive function that'll draw all the rest. The 3 corners of it are always the centers of sides, so they're averages
+            if(getCurrentDepth() > 0) {
+                subTriangle
                             (
-                                    1, //This represents the first recursion
-                                    (x1 + x2) / 2, //x coordinate of first corner
-                                    (y1 + y2) / 2, //y coordinate of first corner
-                                    (x1 + x3) / 2, //x coordinate of second corner
-                                    (y1 + y3) / 2, //y coordinate of second corner
-                                    (x2 + x3) / 2, //x coordinate of third corner
-                                    (y2 + y3) / 2  //y coordinate of third corner
+                                1, //This represents the first recursion
+                                (x1 + x2) / 2, //x coordinate of first corner
+                                (y1 + y2) / 2, //y coordinate of first corner
+                                (x1 + x3) / 2, //x coordinate of second corner
+                                (y1 + y3) / 2, //y coordinate of second corner
+                                (x2 + x3) / 2, //x coordinate of third corner
+                                (y2 + y3) / 2  //y coordinate of third corner
                             );
-                }
+            }
+            updateFractalDimension(getCurrentDepth());
         }
     }
 
@@ -53,7 +58,7 @@ public class SerpinskiTriangle extends FractalShape {
             //Call the recursive function that'll draw all the rest. The 3 corners of it are always the centers of sides, so they're averages
             if(getCurrentDepth() > 0) {
                 subTriangle
-                        (
+                            (
                                 1, //This represents the first recursion
                                 (x1 + x2) / 2, //x coordinate of first corner
                                 (y1 + y2) / 2, //y coordinate of first corner
@@ -61,8 +66,9 @@ public class SerpinskiTriangle extends FractalShape {
                                 (y1 + y3) / 2, //y coordinate of second corner
                                 (x2 + x3) / 2, //x coordinate of third corner
                                 (y2 + y3) / 2  //y coordinate of third corner
-                        );
+                            );
             }
+            updateFractalDimension(getCurrentDepth());
         }
     }
 

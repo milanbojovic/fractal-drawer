@@ -10,6 +10,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.web.WebView;
 import shape.*;
 
 import java.net.URL;
@@ -17,25 +18,35 @@ import java.util.ResourceBundle;
 
 public class MainWindow implements Initializable{
 
-    public AnchorPane canwrap;
+    public AnchorPane canwrap, fracDimensionWrap;
 
     public Canvas canvas;
+    public WebView webView;
     private GraphicsContext gContext;
     private FractalShape selectedShape;
+
 
     @FXML
     private ListView<String> listView;
     private ObservableList<String> listViewData = FXCollections.observableArrayList();
 
+
+    
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        canvas = new Canvas(300, 300);
+        //Init Canvas
+        canvas = new Canvas();
         gContext = canvas.getGraphicsContext2D();
         canwrap.getChildren().add(canvas);
 
+        //Init Fractal dimension WebView
+        webView = new WebView();
+        fracDimensionWrap.getChildren().add(webView);
+
+        //Init Fractal shapes list
         listViewData.add("Horizontal Circles");
         listViewData.add("Horizontal and Vertical Circles");
-        listViewData.add("Serpinski Triangle");
+        listViewData.add("Sierpinski Triangle");
         listViewData.add("Cantor Set");
         listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
@@ -62,6 +73,7 @@ public class MainWindow implements Initializable{
     public void resetCanvas(){
         gContext.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         if(selectedShape != null) selectedShape = null;
+        webView.getEngine().loadContent(FractalShape.emptyFractalDimension);
     }
 
     @FXML
@@ -89,22 +101,22 @@ public class MainWindow implements Initializable{
     FractalShape createFractalObject(String strShape){
         switch (strShape){
             case "Horizontal Circles":
-                return new HorizontalCircles(7, canvas);
+                return new HorizontalCircles(7, canvas, webView);
 
-            case "Serpinski Triangle":
-                return new SerpinskiTriangle(7, canvas);
+            case "Sirpinski Triangle":
+                return new SierpinskiTriangle(7, canvas, webView);
 
             case "Cantor Set":
-                return new CantorSet(7, canvas);
+                return new CantorSet(7, canvas, webView);
 
             case "Horizontal and Vertical Circles":
-                return new HorizontalAndVerticalCircles(7, canvas);
+                return new HorizontalAndVerticalCircles(7, canvas, webView);
 
             case "Koch Curve":
-                return new KochCurve(7, canvas);
+                return new KochCurve(7, canvas, webView);
 
             case "Koch Snowflake":
-                return new KochSnowFlake(7, canvas);
+                return new KochSnowFlake(7, canvas, webView);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");

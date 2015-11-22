@@ -1,6 +1,7 @@
 package shape;
 
 import javafx.scene.canvas.Canvas;
+import javafx.scene.web.WebView;
 
 /**
  * Created by milanbojovic on 11/18/15.
@@ -10,12 +11,15 @@ public class HorizontalAndVerticalCircles extends FractalShape {
     double radius;      //radius of first circle
     double xMid, yMid;  //center point (x,y) of circle
 
-    public HorizontalAndVerticalCircles(int maxDepth, Canvas canvas) {
-        super(maxDepth, canvas);
+    public HorizontalAndVerticalCircles(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
 
         radius  = canvasWidth/4;
         xMid    = canvasWidth/2;
         yMid    = canvasHeight/2;
+
+        p = 1;
+        s = 1;
     }
 
     @Override
@@ -24,6 +28,7 @@ public class HorizontalAndVerticalCircles extends FractalShape {
             currentDepthInc();
             drawLevel0();
             draw(xMid, yMid, radius, 1);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 
@@ -34,6 +39,7 @@ public class HorizontalAndVerticalCircles extends FractalShape {
             currentDepthDec();
             drawLevel0();
             draw(xMid, yMid, radius, 1);
+            updateFractalDimension(getCurrentDepth());
         }
     }
 
