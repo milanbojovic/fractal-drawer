@@ -117,7 +117,7 @@ public class MainWindow implements Initializable{
                 return new HorizontalAndVerticalCircles(7, canvas, webView);
 
             case "Koch Curve":
-                return new KochCurve(7, canvas, webView);
+                return new KochCurve(6, canvas, webView);
 
             case "Koch Snowflake":
                 return new KochSnowFlake(7, canvas, webView);
