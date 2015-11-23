@@ -52,6 +52,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
         listViewData.add("Koch Coastline");
+        listViewData.add("Mandelbrot Set");
 
 
         listView.setItems(listViewData);
@@ -127,6 +128,8 @@ public class MainWindow implements Initializable{
             case "Koch Coastline":
                 return new KochCoastline(10, canvas, webView);
 
+            case "Mandelbrot Set":
+                return new MandelbrotSet(7, canvas, webView);
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
                 return null;
