@@ -51,6 +51,8 @@ public class MainWindow implements Initializable{
         listViewData.add("Cantor Set");
         listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
+        listViewData.add("Koch Coastline");
+
 
         listView.setItems(listViewData);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>(){
@@ -121,6 +123,9 @@ public class MainWindow implements Initializable{
 
             case "Koch Snowflake":
                 return new KochSnowFlake(7, canvas, webView);
+
+            case "Koch Coastline":
+                return new KochCoastline(10, canvas, webView);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
