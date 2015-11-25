@@ -8,9 +8,18 @@ import javafx.scene.web.WebView;
  */
 public class Tree extends FractalShape{
 
-    public Tree(int maxDepth, Canvas canvas, WebView webView) {
+    double bendAngle;
+    double branchAngle;
+    double branchRatio;
+
+    public Tree(int maxDepth, Canvas canvas, WebView webView, double bendAngle, double branchAngle, double branchRatio) {
         super(maxDepth, canvas, webView);
         setCurrentDepth(1);
+
+        this.bendAngle = Math.toRadians(bendAngle);
+        this.branchAngle = Math.toRadians(branchAngle);
+        this.branchRatio = branchRatio;
+
         //this.p = 8;
         //this.s = 3;
     }
@@ -41,9 +50,6 @@ public class Tree extends FractalShape{
     }
 
     public void drawTree(int n, double x, double y, double a, double branchRadius) {
-        double bendAngle = Math.toRadians(15);
-        double branchAngle = Math.toRadians(37);
-        double branchRatio = .65;
 
         if(n > 0){
             double cx = x + Math.cos(a) * branchRadius;
