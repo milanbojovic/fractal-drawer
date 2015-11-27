@@ -51,6 +51,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Cantor Set");
         listViewData.add("Koch Curve");
         listViewData.add("Koch Snowflake");
+        listViewData.add("Koch Anti Snowflake");
         listViewData.add("Koch Coastline");
         listViewData.add("Mandelbrot Set");
         listViewData.add("Tree");
@@ -126,10 +127,13 @@ public class MainWindow implements Initializable{
                 return new KochCurve(6, canvas, webView);
 
             case "Koch Snowflake":
-                return new KochSnowFlake(7, canvas, webView);
+                return new KochSnowFlake(7, canvas, webView, "snowflake");
+
+            case "Koch Anti Snowflake":
+                return new KochSnowFlake(7, canvas, webView, "antisnowflake");
 
             case "Koch Coastline":
-                return new KochCoastline(10, canvas, webView);
+                return new KochCoastline(9, canvas, webView);
 
             case "Mandelbrot Set":
                 return new MandelbrotSet(7, canvas, webView);
