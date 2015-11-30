@@ -12,6 +12,11 @@ public class Tree extends FractalShape{
     double branchAngle;
     double branchRatio;
 
+    double treeX    = canvasWidth/2;
+    double treeY    = canvasHeight;
+    double treeLen  = canvasHeight/3;
+
+
     public Tree(int maxDepth, Canvas canvas, WebView webView, double bendAngle, double branchAngle, double branchRatio) {
         super(maxDepth, canvas, webView);
         setCurrentDepth(1);
@@ -20,8 +25,8 @@ public class Tree extends FractalShape{
         this.branchAngle = Math.toRadians(branchAngle);
         this.branchRatio = branchRatio;
 
-        //this.p = 8;
-        //this.s = 3;
+        this.p = 3;
+        this.s = 2;
     }
 
     @Override
@@ -33,10 +38,9 @@ public class Tree extends FractalShape{
         if(getCurrentDepth() != getMaxDepth()) {
             currentDepthInc();
             clearCanvas();
-            drawTree(getCurrentDepth(), canvasWidth/2, canvasHeight,-Math.PI/2, 150);
+            drawTree(getCurrentDepth(), treeX, treeY,-Math.PI/2, treeLen);
             updateFractalDimension(getCurrentDepth());
         }
-
     }
 
     @Override
@@ -44,7 +48,7 @@ public class Tree extends FractalShape{
         if(getCurrentDepth() > 1){
             currentDepthDec();
             clearCanvas();
-            drawTree(getCurrentDepth(), canvasWidth/2, canvasHeight,-Math.PI/2, 150);
+            drawTree(getCurrentDepth(), treeX, treeY,-Math.PI/2, treeLen);
             updateFractalDimension(getCurrentDepth());
         }
     }
