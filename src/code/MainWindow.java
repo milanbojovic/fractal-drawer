@@ -52,6 +52,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Koch Curve");
         listViewData.add("Koch Curve (Quadratic_1)");
         listViewData.add("Koch Curve (Quadratic_2)");
+        listViewData.add("Dragon Curve");
         listViewData.add("Koch Snowflake");
         listViewData.add("Koch Anti Snowflake");
         listViewData.add("Koch Coastline");
@@ -129,10 +130,13 @@ public class MainWindow implements Initializable{
                 return new KochCurve(6, canvas, webView);
 
             case "Koch Curve (Quadratic_1)":
-                return new KochCurveQuadratic1(6, canvas, webView);
+                return new DragonCurve(6, canvas, webView);
 
             case "Koch Curve (Quadratic_2)":
                 return new KochCurveQuadratic2(6, canvas, webView);
+
+            case "Dragon Curve":
+                return new DragonCurve(17, canvas, webView);
 
             case "Koch Snowflake":
                 return new KochSnowFlake(7, canvas, webView, "snowflake");

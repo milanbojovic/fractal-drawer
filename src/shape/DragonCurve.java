@@ -1,0 +1,99 @@
+package shape;
+
+import javafx.scene.canvas.Canvas;
+import javafx.scene.paint.Color;
+import javafx.scene.web.WebView;
+
+/**
+ * Created by milanbojovic on 21.11.15..
+ */
+public class DragonCurve extends FractalShape {
+
+    double x1, y1, x3, y3;
+    double angleDiff;
+
+    public DragonCurve(int maxDepth, Canvas canvas, WebView webView) {
+        super(maxDepth, canvas, webView);
+        x1 = canvasWidth*0.25;
+        y1 = canvasHeight/3*2;
+        x3 = canvasWidth-canvasWidth*0.15;
+        y3 = y1;
+
+        angleDiff = 45;
+
+    }
+
+    @Override
+    void drawLevel0() {gContext.strokeLine(x1, y1, x3, y3);}
+
+    @Override
+    public void drawNextDepthLevel() {
+        if(getCurrentDepth() != getMaxDepth()) {
+            clearCanvas();
+            currentDepthInc();
+            if(getCurrentDepth() == 0) drawLevel0();
+            else drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true);
+            updateFractalDimension(getCurrentDepth());
+        }
+    }
+
+    @Override
+    public void drawPrevDepthLevel() {
+        if(getCurrentDepth() > 0){
+            clearCanvas();
+            currentDepthDec();
+            if(getCurrentDepth() == 0) drawLevel0();
+            else drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true);
+            updateFractalDimension(getCurrentDepth());
+        }
+    }
+
+    private void drawDragonCurve(int n, double x1, double y1, double x3, double y3, boolean isClockwise) {
+
+        if(n > 0) {
+            // find vector of original line
+            double deltaX = x3 - x1;
+            double deltaY = y3 - y1;
+
+            // represent in polar coordinates
+            double magnitude = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+            double angle = Math.toDegrees(Math.atan(deltaX / deltaY));
+
+            // calculate new distance from origin
+            magnitude /= Math.sqrt(2);
+
+            // adjust results of trig function for negative angles
+            if (deltaY < 0) { // if y1 is below y3
+                angle += 180;
+            }
+            if (deltaX < 0) { // if x1 is left of x3
+                angle += 360;
+            }
+
+            // when isClockwise is true, increase angle size (generally by 45deg),
+            // else decrease, wrapping around 360deg if result is negative, resulting
+            // in polar coordinates for third point
+            if (isClockwise) {
+                angle += angleDiff;
+            }
+            else {
+                angle -= angleDiff;
+            }
+
+            if (angle < 0) {
+                angle += 360;
+            }
+
+            // convert back to cartesian vector
+            double x2 = magnitude * Math.sin(Math.toRadians(angle));
+            double y2 = magnitude * Math.cos(Math.toRadians(angle));
+
+            // recursive calls to repeat process with new coordinates
+            drawDragonCurve(n-1, x1, y1, x1 + x2, y1 + y2, true);
+            drawDragonCurve(n-1, x1 + x2, y1 + y2, x3, y3, false);
+        }
+        else {
+            gContext.strokeLine((int)x1, (int)y1, (int)(x3), (int)(y3));
+        }
+    }
+}
