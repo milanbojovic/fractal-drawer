@@ -7,11 +7,11 @@ import javafx.scene.web.WebView;
 /**
  * Created by milanbojovic on 21.11.15..
  */
-public class KochCurveQuadratic extends FractalShape {
+public class KochCurveQuadratic1 extends FractalShape {
 
     double x1, y1, x6, y6;
 
-    public KochCurveQuadratic(int maxDepth, Canvas canvas, WebView webView) {
+    public KochCurveQuadratic1(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
         x1 = canvasWidth*0.1;
         y1 = canvasHeight/3*2;
