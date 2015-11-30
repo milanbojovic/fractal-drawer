@@ -51,11 +51,11 @@ public class MandelbrotSet extends FractalShape {
                 double c2 = Math.max(255 * (2 * t1 - 1), 0);
 
                 if (convergenceValue != convergenceSteps) {
-                    gContext.setFill(Color.WHITE); // Convergence Color
-                    //gContext.setFill(Color.color(c2 / 255.0, c1 / 255.0, c2 / 255.0));
+                    //gContext.setFill(Color.WHITE); // Convergence Color
+                    gContext.setFill(Color.color(c2 / 255.0, c1 / 255.0, c2 / 255.0));
                 } else {
-                    gContext.setFill(Color.BLACK);
-                    //gContext.setFill(Color.PURPLE); // Convergence Color
+                    //gContext.setFill(Color.BLACK);
+                    gContext.setFill(Color.PURPLE); // Convergence Color
                 }
                 gContext.fillRect(xR, yR, 1, 1);
             }
