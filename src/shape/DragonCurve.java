@@ -11,16 +11,17 @@ public class DragonCurve extends FractalShape {
 
     double x1, y1, x3, y3;
     double angleDiff;
+    String mode;
 
-    public DragonCurve(int maxDepth, Canvas canvas, WebView webView) {
+    public DragonCurve(int maxDepth, Canvas canvas, WebView webView, String mode) {
         super(maxDepth, canvas, webView);
-        x1 = canvasWidth*0.25;
-        y1 = canvasHeight/3*2;
-        x3 = canvasWidth-canvasWidth*0.15;
+
+        x1 = canvasWidth*0.3;
+        y1 = canvasHeight/2;
+        x3 = canvasWidth-canvasWidth*0.3;
         y3 = y1;
-
         angleDiff = 45;
-
+        this.mode = mode;
     }
 
     @Override
@@ -32,7 +33,15 @@ public class DragonCurve extends FractalShape {
             clearCanvas();
             currentDepthInc();
             if(getCurrentDepth() == 0) drawLevel0();
-            else drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true);
+            else {
+                if (mode.equals("single")){
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
+                }
+                else {
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
+                }
+            }
             updateFractalDimension(getCurrentDepth());
         }
     }
@@ -43,12 +52,21 @@ public class DragonCurve extends FractalShape {
             clearCanvas();
             currentDepthDec();
             if(getCurrentDepth() == 0) drawLevel0();
-            else drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true);
+            else {
+                if (mode.equals("single")){
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
+                }
+                else {
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
+                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
+                }
+            }
+
             updateFractalDimension(getCurrentDepth());
         }
     }
 
-    private void drawDragonCurve(int n, double x1, double y1, double x3, double y3, boolean isClockwise) {
+    private void drawDragonCurve(int n, double x1, double y1, double x3, double y3, boolean isClockwise, Color color) {
 
         if(n > 0) {
             // find vector of original line
@@ -89,10 +107,11 @@ public class DragonCurve extends FractalShape {
             double y2 = magnitude * Math.cos(Math.toRadians(angle));
 
             // recursive calls to repeat process with new coordinates
-            drawDragonCurve(n-1, x1, y1, x1 + x2, y1 + y2, true);
-            drawDragonCurve(n-1, x1 + x2, y1 + y2, x3, y3, false);
+            drawDragonCurve(n-1, x1, y1, x1 + x2, y1 + y2, true, color);
+            drawDragonCurve(n-1, x1 + x2, y1 + y2, x3, y3, false, color);
         }
         else {
+            gContext.setStroke(color);
             gContext.strokeLine((int)x1, (int)y1, (int)(x3), (int)(y3));
         }
     }
