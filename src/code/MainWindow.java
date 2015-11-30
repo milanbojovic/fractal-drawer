@@ -130,7 +130,7 @@ public class MainWindow implements Initializable{
                 return new KochCurve(6, canvas, webView);
 
             case "Koch Curve (Quadratic_1)":
-                return new DragonCurve(6, canvas, webView);
+                return new KochCurveQuadratic1(6, canvas, webView);
 
             case "Koch Curve (Quadratic_2)":
                 return new KochCurveQuadratic2(6, canvas, webView);

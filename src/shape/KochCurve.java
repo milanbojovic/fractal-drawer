@@ -29,6 +29,7 @@ public class KochCurve extends FractalShape {
     public void drawNextDepthLevel() {
         if(getCurrentDepth() != getMaxDepth()) {
             currentDepthInc();
+            clearCanvas();
             if(getCurrentDepth() == 0) drawLevel0();
             else drawKochCurve(getCurrentDepth(), x1, y1, x5, y5);
             updateFractalDimension(getCurrentDepth());
@@ -63,23 +64,13 @@ public class KochCurve extends FractalShape {
             x4 = x1 + 2 * deltaX /3;
             y4 = y1 + 2 * deltaY /3;
 
-            //erase one line from old fractal
-            gContext.setStroke(Color.WHITE);
-            gContext.setLineWidth(gContext.getLineWidth()+2);
-            gContext.strokeLine(x1, y1, x5, y5);
-            gContext.setLineWidth(gContext.getLineWidth()-2);
-            gContext.setStroke(Color.BLACK);
-
-            //draw new shape
-            gContext.strokeLine(x1, y1, x2, y2);
-            gContext.strokeLine(x2, y2, x3, y3);
-            gContext.strokeLine(x3, y3, x4, y4);
-            gContext.strokeLine(x4, y4, x5, y5);
-
             drawKochCurve(n-1, x1, y1, x2, y2);
             drawKochCurve(n-1, x2, y2, x3, y3);
             drawKochCurve(n-1, x3, y3, x4, y4);
             drawKochCurve(n-1, x4, y4, x5, y5);
+        }
+        else{
+            gContext.strokeLine(x1, y1, x5, y5);
         }
     }
 }

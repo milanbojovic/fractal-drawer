@@ -29,6 +29,7 @@ public class KochCurveQuadratic1 extends FractalShape {
     public void drawNextDepthLevel() {
         if(getCurrentDepth() != getMaxDepth()) {
             currentDepthInc();
+            clearCanvas();
             if(getCurrentDepth() == 0) drawLevel0();
             else drawKochCurve(getCurrentDepth(), x1, y1, x6, y6);
             updateFractalDimension(getCurrentDepth());
@@ -84,15 +85,6 @@ public class KochCurveQuadratic1 extends FractalShape {
             angle = right(angle, 90);
             x5 = x4 + Math.cos(angle * Math.PI / 180) * length/3;
             y5 = y4 + Math.sin(angle * Math.PI / 180) * length/3;
-
-            //erase one line from old fractal
-            gContext.setStroke(Color.WHITE);
-            gContext.setLineWidth(gContext.getLineWidth()+1);
-            gContext.strokeLine(x1, y1, x6, y6);
-            gContext.setLineWidth(gContext.getLineWidth()-1);
-            gContext.setStroke(Color.BLACK);
-
-
 
             drawKochCurve(n-1, x1, y1, x2, y2);
             drawKochCurve(n-1, x2, y2, x3, y3);
