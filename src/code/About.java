@@ -28,7 +28,7 @@ public class About {
                         "Copyright: Faculty of Electrical Engineering");
 
         Button closeButton = new Button("Close the window");
-        closeButton.setOnAction(e -> window.close());
+        //closeButton.setOnAction(e -> window.close());
 
         VBox layout = new VBox(10);
         layout.getChildren().addAll(label, closeButton);

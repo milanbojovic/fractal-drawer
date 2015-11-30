@@ -18,8 +18,8 @@ public class KochCurveQuadratic2 extends FractalShape {
         x9 = canvasWidth - canvasWidth * 0.050;
         y9 = y1;
 
-        p = 5;
-        s = 3;
+        p = 8;
+        s = 4;
     }
 
     @Override
