@@ -61,7 +61,6 @@ public class DragonCurve extends FractalShape {
                     drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
                 }
             }
-
             updateFractalDimension(getCurrentDepth());
         }
     }
@@ -113,6 +112,7 @@ public class DragonCurve extends FractalShape {
         else {
             gContext.setStroke(color);
             gContext.strokeLine((int)x1, (int)y1, (int)(x3), (int)(y3));
+            gContext.setStroke(Color.BLACK);
         }
     }
 }
