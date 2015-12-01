@@ -62,7 +62,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Tree 60 degree");
         listViewData.add("Tree 90 degree");
         listViewData.add("Pythagoras tree");
-
+        listViewData.add("Hilbert Curve");
 
         listView.setItems(listViewData);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>(){
@@ -166,6 +166,9 @@ public class MainWindow implements Initializable{
 
             case "Pythagoras tree":
                 return new PythagorasTree(14, canvas, webView);
+
+            case "Hilbert Curve":
+                return new HilbertCurve(9, canvas, webView);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
