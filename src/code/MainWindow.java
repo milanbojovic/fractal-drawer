@@ -61,6 +61,7 @@ public class MainWindow implements Initializable{
         listViewData.add("Tree");
         listViewData.add("Tree 60 degree");
         listViewData.add("Tree 90 degree");
+        listViewData.add("Pythagoras tree");
 
 
         listView.setItems(listViewData);
@@ -162,6 +163,9 @@ public class MainWindow implements Initializable{
 
             case "Tree 90 degree":
                 return new Tree(10, canvas, webView, 0, 90, .50);
+
+            case "Pythagoras tree":
+                return new PythagorasTree(14, canvas, webView);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
