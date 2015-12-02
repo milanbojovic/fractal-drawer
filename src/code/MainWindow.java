@@ -65,6 +65,8 @@ public class MainWindow implements Initializable{
         listViewData.add("Pythagoras tree");
         listViewData.add("Hilbert Curve");
         listViewData.add("TSquare");
+        listViewData.add("Hexaflake");
+
 
         listView.setItems(listViewData);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>(){
@@ -177,6 +179,9 @@ public class MainWindow implements Initializable{
 
             case "TSquare":
                 return new TSquare(9, canvas, webView);
+
+            case "Hexaflake":
+                return new Hexaflake(6, canvas, webView);
 
             default:
                 System.out.println("Selected shape doesn't exist in list !!!");
