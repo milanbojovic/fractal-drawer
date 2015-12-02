@@ -11,17 +11,28 @@ public class DragonCurve extends FractalShape {
 
     double x1, y1, x3, y3;
     double angleDiff;
-    String mode;
+    String mode1;
+    String mode2;
 
-    public DragonCurve(int maxDepth, Canvas canvas, WebView webView, String mode) {
+    public DragonCurve(int maxDepth, Canvas canvas, WebView webView, String mode1, String mode2) {
         super(maxDepth, canvas, webView);
 
-        x1 = canvasWidth*0.3;
-        y1 = canvasHeight/2;
-        x3 = canvasWidth-canvasWidth*0.3;
-        y3 = y1;
-        angleDiff = 45;
-        this.mode = mode;
+        if(mode2.equals("dragon")){
+            x1 = canvasWidth*0.3;
+            y1 = canvasHeight/2;
+            x3 = canvasWidth-canvasWidth*0.3;
+            y3 = y1;
+            angleDiff = 45;
+        }
+        else{
+            x1 = canvasWidth*0.3;
+            y1 = canvasHeight/3*2;
+            x3 = canvasWidth-canvasWidth*0.3;
+            y3 = y1;
+            angleDiff = 45;
+        }
+        this.mode1 = mode1;
+        this.mode2 = mode2;
     }
 
     @Override
@@ -34,7 +45,7 @@ public class DragonCurve extends FractalShape {
             currentDepthInc();
             if(getCurrentDepth() == 0) drawLevel0();
             else {
-                if (mode.equals("single")){
+                if (mode1.equals("single")){
                     drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
                 }
                 else {
@@ -53,7 +64,7 @@ public class DragonCurve extends FractalShape {
             currentDepthDec();
             if(getCurrentDepth() == 0) drawLevel0();
             else {
-                if (mode.equals("single")){
+                if (mode1.equals("single")){
                     drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
                 }
                 else {
@@ -90,11 +101,17 @@ public class DragonCurve extends FractalShape {
             // when isClockwise is true, increase angle size (generally by 45deg),
             // else decrease, wrapping around 360deg if result is negative, resulting
             // in polar coordinates for third point
-            if (isClockwise) {
-                angle += angleDiff;
+            if(mode2.equals("dragon")){
+
+                if (isClockwise) {
+                    angle += angleDiff;
+                }
+                else {
+                    angle -= angleDiff;
+                }
             }
             else {
-                angle -= angleDiff;
+                    angle += angleDiff;
             }
 
             if (angle < 0) {
