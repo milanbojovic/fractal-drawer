@@ -7,6 +7,7 @@ import javafx.scene.web.WebView;
  * Created by milanbojovic on 11/18/15.
  * University graduate work "Fractal-Drawer"
  */
+
 public class HorizontalCircles extends FractalShape {
     double radius;      //radius of first circle
     double xMid, yMid;  //center point (x,y) of circle
@@ -18,8 +19,8 @@ public class HorizontalCircles extends FractalShape {
         xMid    = canvasWidth/2;
         yMid    = canvasHeight/2;
 
-        p = 1;
-        s = 1;
+        p = 2;
+        s = 2;
     }
 
     @Override

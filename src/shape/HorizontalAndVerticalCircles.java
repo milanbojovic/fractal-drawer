@@ -18,8 +18,8 @@ public class HorizontalAndVerticalCircles extends FractalShape {
         xMid    = canvasWidth/2;
         yMid    = canvasHeight/2;
 
-        p = 1;
-        s = 1;
+        p = 4;
+        s = 2;
     }
 
     @Override

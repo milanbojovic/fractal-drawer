@@ -23,12 +23,9 @@ public class KochCoastline extends FractalShape {
         x2 = (int)canvasWidth - spacing;
         y2 = y1;
         x3 = (int)canvasWidth / 2;
-        y3 = spacing - spacing/6*5;
+        y3 = spacing - spacing/6 * 5;
 
         rand = new Random();
-
-        //p = 4;
-        //s = 3;
     }
 
     @Override
@@ -43,7 +40,6 @@ public class KochCoastline extends FractalShape {
             drawCoast(getCurrentDepth(), x1, y1, x2, y2);
             drawCoast(getCurrentDepth(), x2, y2, x3, y3);
             drawCoast(getCurrentDepth(), x3, y3, x1, y1);
-            updateFractalDimension(getCurrentDepth());
         }
     }
 
@@ -55,7 +51,6 @@ public class KochCoastline extends FractalShape {
             drawCoast(getCurrentDepth(), x1, y1, x2, y2);
             drawCoast(getCurrentDepth(), x2, y2, x3, y3);
             drawCoast(getCurrentDepth(), x3, y3, x1, y1);
-            updateFractalDimension(getCurrentDepth());
         }
     }
 

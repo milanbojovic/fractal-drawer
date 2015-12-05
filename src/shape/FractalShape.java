@@ -37,8 +37,6 @@ public abstract class FractalShape {
 
         canvasWidth = canvas.getWidth();
         canvasHeight = canvas.getHeight();
-
-
     }
 
     public void setCurrentDepth(int currentDepth) {
@@ -78,14 +76,14 @@ public abstract class FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+                        "                  <mtext>log</mtext>\n" +
                         "                  <mo>&InvisibleTimes;</mo>\n" +
                         "                     <mfenced>\n" +
                         "                           <mtext>P</mtext>\n" +
                         "                     </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+                        "                  <mtext>log</mtext>\n" +
                         "                  <mo>&InvisibleTimes;</mo>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>S</mtext>\n" +
@@ -97,14 +95,14 @@ public abstract class FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+                        "                  <mtext>log</mtext>\n" +
                         "                  <mo>&InvisibleTimes;</mo>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>" + p + "</mtext>\n" +
                         "                  </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+                        "                  <mtext>log</mtext>\n" +
                         "                  <mo>&InvisibleTimes;</mo>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>" + s + "</mtext>\n" +
@@ -120,6 +118,10 @@ public abstract class FractalShape {
         );
     }
 
+    public void updateFractalDimension(String mathMl){
+        webView.getEngine().loadContent(mathMl);
+    }
+
     public static String emptyFractalDimension =
             "      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\t\n" +
             "         <mrow>\n" +
@@ -129,20 +131,18 @@ public abstract class FractalShape {
             "            <mtext> </mtext>\n" +
             "            <mfrac>\n" +
             "               <mrow>\n" +
-            "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+            "                  <mtext>log</mtext>\n" +
             "                  <mo>&InvisibleTimes;</mo>\n" +
             "                     <mfenced>\n" +
             "                           <mtext>P</mtext>\n" +
             "                     </mfenced>\n" +
             "               </mrow>\n" +
             "               <mrow>\n" +
-            "                  <msub><mtext>log</mtext><mn>10</mn></msub>\n" +
+            "                  <mtext>log</mtext>\n" +
             "                  <mo>&InvisibleTimes;</mo>\n" +
             "                  <mfenced>\n" +
             "                     <mtext>S</mtext>\n" +
             "                  </mfenced>\n" +
             "               </mrow>\n" +
-            "            </mfrac>\n" +
-            "            <mtext> </mtext>\n" +
-            "            <mo>=</mo>\n";
+            "            </mfrac>\n";
 }

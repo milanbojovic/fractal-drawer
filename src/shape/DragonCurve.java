@@ -13,6 +13,7 @@ public class DragonCurve extends FractalShape {
     double angleDiff;
     String mode1;
     String mode2;
+    String mathMl;
 
     public DragonCurve(int maxDepth, Canvas canvas, WebView webView, String mode1, String mode2) {
         super(maxDepth, canvas, webView);
@@ -41,9 +42,13 @@ public class DragonCurve extends FractalShape {
 
         y3 = y1;
         angleDiff = 45;
-
         this.mode1 = mode1;
         this.mode2 = mode2;
+
+        p = 2;
+        s = 2; //sqrt(2)
+
+        initMathMl();
     }
 
     @Override
@@ -64,7 +69,7 @@ public class DragonCurve extends FractalShape {
                     drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
                 }
             }
-            updateFractalDimension(getCurrentDepth());
+            updateFractalDimension(mathMl);
         }
     }
 
@@ -83,7 +88,7 @@ public class DragonCurve extends FractalShape {
                     drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
                 }
             }
-            updateFractalDimension(getCurrentDepth());
+            updateFractalDimension(mathMl);
         }
     }
 
@@ -142,5 +147,60 @@ public class DragonCurve extends FractalShape {
             gContext.strokeLine((int)x1, (int)y1, (int)(x3), (int)(y3));
             gContext.setStroke(Color.BLACK);
         }
+    }
+
+
+
+    private void initMathMl(){
+
+        mathMl ="      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\t\n" +
+                "         <mrow>\n" +
+                "            <mi>d</mi>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mo>=</mo>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mfrac>\n" +
+                "               <mrow>\n" +
+                "                  <mtext>log</mtext>\n" +
+                "                  <mo>&InvisibleTimes;</mo>\n" +
+                "                     <mfenced>\n" +
+                "                           <mtext>P</mtext>\n" +
+                "                     </mfenced>\n" +
+                "               </mrow>\n" +
+                "               <mrow>\n" +
+                "                  <mtext>log</mtext>\n" +
+                "                  <mo>&InvisibleTimes;</mo>\n" +
+                "                  <mfenced>\n" +
+                "                     <mtext>S</mtext>\n" +
+                "                  </mfenced>\n" +
+                "               </mrow>\n" +
+                "            </mfrac>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mo>=</mo>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mfrac>\n" +
+                "               <mrow>\n" +
+                "                  <mtext>log</mtext>\n" +
+                "                  <mo>&InvisibleTimes;</mo>\n" +
+                "                  <mfenced>\n" +
+                "                     <mtext>" + (int)p + "</mtext>\n" +
+                "                  </mfenced>\n" +
+                "               </mrow>\n" +
+                "               <mrow>\n" +
+                "                  <mtext>log</mtext>\n" +
+                "                  <mo>&InvisibleTimes;</mo>\n" +
+                "                  <mfenced>\n" +
+                "                       <msqrt>\n" +
+                "                           <mtext>" + (int)s + "</mtext>\n" +
+                "                       </msqrt>\n" +
+                "                  </mfenced>\n" +
+                "               </mrow>\n" +
+                "            </mfrac>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mo>=</mo>\n" +
+                "            <mtext> </mtext>\n" +
+                "            <mn>" + Math.log(p) / Math.log(Math.sqrt(s)) + "</mn>\n" +
+                "         </mrow>\n" +
+                "      </math>";
     }
 }

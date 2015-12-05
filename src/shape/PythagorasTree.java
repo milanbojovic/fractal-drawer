@@ -10,8 +10,9 @@ import javafx.scene.web.WebView;
 public class PythagorasTree extends FractalShape {
 
     double x1, y1, x2, y2;
-    double a;
+    double a, s2;
     double tanphi = 1.0;
+    String mathMl;
 
     public PythagorasTree(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
@@ -24,6 +25,11 @@ public class PythagorasTree extends FractalShape {
         setCurrentDepth(0);
         p = 2;
         s = 1.41; //2/Sqrt(2)
+
+        s = 2;  // two new figures
+        s2 = 2; //1/sqrt(2) size of new figures
+
+        initMathMl();
     }
 
     @Override
@@ -35,7 +41,7 @@ public class PythagorasTree extends FractalShape {
             currentDepthInc();
             clearCanvas();
             drawPythagorasTree(getCurrentDepth(), x1, y1, x2, y2);
-            updateFractalDimension(getCurrentDepth());
+            updateFractalDimension(mathMl);
         }
     }
 
@@ -45,7 +51,7 @@ public class PythagorasTree extends FractalShape {
             clearCanvas();
             currentDepthDec();
             drawPythagorasTree(getCurrentDepth(), x1, y1, x2, y2);
-            updateFractalDimension(getCurrentDepth());
+            updateFractalDimension(mathMl);
         }
     }
 
@@ -76,4 +82,66 @@ public class PythagorasTree extends FractalShape {
                 }
         }
     }
+
+
+
+        private void initMathMl(){
+
+            mathMl =    "      <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\t\n" +
+                        "         <mrow>\n" +
+                        "            <mi>d</mi>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mo>=</mo>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mfrac>\n" +
+                        "               <mrow>\n" +
+                        "                  <mtext>log</mtext>\n" +
+                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                     <mfenced>\n" +
+                        "                           <mtext>P</mtext>\n" +
+                        "                     </mfenced>\n" +
+                        "               </mrow>\n" +
+                        "               <mrow>\n" +
+                        "                  <mtext>log</mtext>\n" +
+                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mfenced>\n" +
+                        "                     <mtext>S</mtext>\n" +
+                        "                  </mfenced>\n" +
+                        "               </mrow>\n" +
+                        "            </mfrac>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mo>=</mo>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mfrac>\n" +
+                        "               <mrow>\n" +
+                        "                  <mtext>log</mtext>\n" +
+                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mfenced>\n" +
+                        "                     <mtext>" + (int)p + "</mtext>\n" +
+                        "                  </mfenced>\n" +
+                        "               </mrow>\n" +
+                        "               <mrow>\n" +
+                        "                  <mtext>log</mtext>\n" +
+                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mfenced>\n" +
+                        "                   <mfrac>\n" +
+                        "                       <mrow>\n" +
+                        "                           <mtext>" + (int)s + "</mtext>\n" +
+                        "                       </mrow>\n" +
+                        "                       <mrow>\n" +
+                        "                           <msqrt>\n" +
+                        "                               <mtext>" + (int)s2 + "</mtext>\n" +
+                        "                           </msqrt>\n" +
+                        "                       </mrow>\n" +
+                        "                   </mfrac>\n" +
+                        "                  </mfenced>\n" +
+                        "               </mrow>\n" +
+                        "            </mfrac>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mo>=</mo>\n" +
+                        "            <mtext> </mtext>\n" +
+                        "            <mn>" + Math.log(p) / Math.log(s/Math.sqrt(s2)) + "</mn>\n" +
+                        "         </mrow>\n" +
+                        "      </math>";
+        }
 }
