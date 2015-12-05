@@ -26,6 +26,7 @@ public class HorizontalCircles extends FractalShape {
     public void drawNextDepthLevel() {
         if(getCurrentDepth() != getMaxDepth()) {
             currentDepthInc();
+            clearCanvas();
             drawLevel0();
             draw(xMid, yMid, radius, 1);
             updateFractalDimension(getCurrentDepth());

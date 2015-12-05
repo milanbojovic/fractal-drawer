@@ -17,20 +17,31 @@ public class DragonCurve extends FractalShape {
     public DragonCurve(int maxDepth, Canvas canvas, WebView webView, String mode1, String mode2) {
         super(maxDepth, canvas, webView);
 
-        if(mode2.equals("dragon")){
-            x1 = canvasWidth*0.3;
-            y1 = canvasHeight/2;
-            x3 = canvasWidth-canvasWidth*0.3;
-            y3 = y1;
-            angleDiff = 45;
+        double square = Math.min(canvasHeight, canvasWidth);
+
+        if(mode2.equals("dragon")) {
+            if(mode1.equals("single")){
+                x1 = canvasWidth/2 - square/2 + square/2 * 0.4;
+                y1 = canvasHeight/5*3;
+                x3 = canvasWidth/2 + square/2 - square/2 * 0.2;
+            }
+            else{
+                //twin
+                x1 = canvasWidth/2 - square/2 + square/2 * 0.3;
+                y1 = canvasHeight/2;
+                x3 = canvasWidth/2 + square/2 - square/2 * 0.3;
+            }
+
         }
         else{
-            x1 = canvasWidth*0.3;
+            x1 = canvasWidth/2 - square/4;
             y1 = canvasHeight/3*2;
-            x3 = canvasWidth-canvasWidth*0.3;
-            y3 = y1;
-            angleDiff = 45;
+            x3 = canvasWidth/2 + square/4;
         }
+
+        y3 = y1;
+        angleDiff = 45;
+
         this.mode1 = mode1;
         this.mode2 = mode2;
     }

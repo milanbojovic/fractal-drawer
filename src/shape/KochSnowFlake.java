@@ -9,7 +9,7 @@ import javafx.scene.web.WebView;
 public class KochSnowFlake extends FractalShape {
 
     double x1, y1, x2, y2, x3, y3;
-    double spacing = 150;
+    double spacing;
     String mode;
 
     public KochSnowFlake(int maxDepth, Canvas canvas, WebView webView, String mode) {
@@ -18,13 +18,28 @@ public class KochSnowFlake extends FractalShape {
         setCurrentDepth(0);
         this.mode = mode;
 
-        x1 = spacing;
-        x2 = (int)canvasWidth - spacing;
-        a  = x2 - x1;
-        y1 = canvasHeight - spacing;
-        y2 = y1;
-        x3 = x1 + a/2;
-        y3 = y1 - (Math.sqrt(Math.pow(a,2) - Math.pow(a/2,2)));
+        double squareSize = Math.min(canvasHeight, canvasWidth);
+        spacing = squareSize * 0.15;
+
+        if(mode.equals("snowflake")){
+            spacing = squareSize * 0.15;
+            x1 = canvasWidth/2 - squareSize/2 + spacing;
+            y1 = canvasHeight/2 + squareSize/2 - spacing*2;
+            x2 = canvasWidth/2 + squareSize/2 - spacing;
+            a  = x2 - x1;
+            y2 = y1;
+            x3 = x1 + a/2;
+            y3 = y1 - (Math.sqrt(Math.pow(a,2) - Math.pow(a/2,2)));
+        }
+        else{
+            x1 = canvasWidth/2 - squareSize/2 + spacing/2;
+            y1 = canvasHeight/2 + squareSize/2 - spacing;
+            x2 = canvasWidth/2 + squareSize/2 - spacing/2;
+            a  = x2 - x1;
+            y2 = y1;
+            x3 = x1 + a/2;
+            y3 = y1 - (Math.sqrt(Math.pow(a,2) - Math.pow(a/2,2)));
+        }
 
         p = 4;
         s = 3;

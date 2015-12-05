@@ -13,9 +13,11 @@ public class KochCurveQuadratic1 extends FractalShape {
 
     public KochCurveQuadratic1(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
+
         x1 = canvasWidth*0.1;
-        y1 = canvasHeight/3*2;
         x6 = canvasWidth-canvasWidth*0.1;
+
+        y1 = canvasHeight - (canvasHeight - (x6-x1)/2)/2;
         y6 = y1;
 
         p = 5;

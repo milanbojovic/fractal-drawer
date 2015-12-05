@@ -13,6 +13,9 @@ public class KochCurve extends FractalShape {
 
     public KochCurve(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
+
+        double square = Math.min(canvasWidth, canvasHeight);
+
         x1 = 10;
         y1 = canvasHeight/3*2;
         x5 = canvasWidth - 10;

@@ -15,7 +15,7 @@ public class PythagorasTree extends FractalShape {
 
     public PythagorasTree(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
-        a = 120;
+        a = Math.min(canvasHeight, canvasWidth) / 5;
         x1 = canvasWidth / 2 - a/2;
         y1 = canvasHeight - a/2;
         x2 = canvasWidth / 2 + a/2;

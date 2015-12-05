@@ -10,12 +10,18 @@ import javafx.scene.web.WebView;
 public class KochCurveQuadratic2 extends FractalShape {
 
     double x1, y1, x9, y9;
+    double spacing;
 
     public KochCurveQuadratic2(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
-        x1 = canvasWidth * 0.040;
+
+        double squareSize = Math.min(canvasHeight, canvasWidth);
+        spacing = 0;
+
+        x1 = canvasWidth/2 - squareSize/2 + spacing;
         y1 = canvasHeight / 2;
-        x9 = canvasWidth - canvasWidth * 0.050;
+
+        x9 = canvasWidth/2 + squareSize/2 - spacing;
         y9 = y1;
 
         p = 8;

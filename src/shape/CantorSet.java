@@ -9,14 +9,18 @@ import javafx.scene.web.WebView;
  */
 public class CantorSet extends FractalShape {
 
-    float x1, x2, y;
+    double x1, x2, y;
     float lineSpacing = 30; //spacing between vertical lines
 
     public CantorSet(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
-        this.x1 = 40;
-        this.x2 = (int)canvasWidth - 40;
-        this.y = 150;
+
+
+        double square = Math.min(canvasWidth, canvasHeight);
+
+        this.x1 = canvasWidth/2 - square/2 + square*0.1;
+        this.x2 = canvasWidth/2 + square/2 - square*0.1;
+        this.y = square/3;
 
         p = 2;
         s = 3;

@@ -7,24 +7,29 @@ import javafx.scene.web.WebView;
  * Created by milanbojovic on 11/18/15.
  * Uviversity graduate work "Fractal-Drawer"
  */
+
 public class SierpinskiTriangle extends FractalShape {
 
-    float x1, y1, x2, y2, x3, y3;
+    double x1, y1, x2, y2, x3, y3;
+    double spacing, a;
 
     public SierpinskiTriangle(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
 
-        x1 = 10;
-        y1 = (int)canvasHeight - 10;
-        x2 = (int)canvasWidth - 10;
-        y2 = (int)canvasHeight - 10;
-        x3 = (int)canvasWidth / 2;
-        y3 = 10;
+        double squareSize = Math.min(canvasHeight, canvasWidth);
+
+        spacing = squareSize * 0.025;
+        x1 = canvasWidth/2 - squareSize/2 + spacing;
+        y1 = canvasHeight/2 + squareSize/2 - spacing*2;
+        x2 = canvasWidth/2 + squareSize/2 - spacing;
+        a  = x2 - x1;
+        y2 = y1;
+        x3 = x1 + a/2;
+        y3 = y1 - (Math.sqrt(Math.pow(a,2) - Math.pow(a/2,2)));
 
         p = 3;
         s = 2;
     }
-
 
     @Override
     public void drawNextDepthLevel() {
@@ -81,12 +86,12 @@ public class SierpinskiTriangle extends FractalShape {
     }
 
     //The recursive function that'll draw all the upside down triangles
-    void subTriangle(int n, float x1, float y1, float x2, float y2, float x3, float y3)
+    void subTriangle(int n, double x1, double y1, double x2, double y2, double x3, double y3)
     {
         //Draw the 3 sides as black lines
-        gContext.strokeLine((int)x1, (int)y1, (int)x2, (int)y2);
-        gContext.strokeLine((int)x1, (int)y1, (int)x3, (int)y3);
-        gContext.strokeLine((int)x2, (int)y2, (int)x3, (int)y3);
+        gContext.strokeLine(x1, y1, x2, y2);
+        gContext.strokeLine(x1, y1, x3, y3);
+        gContext.strokeLine(x2, y2, x3, y3);
 
         //Calls itself 3 times with new corners, but only if the current number of recursions is smaller than the maximum depth
         if(n < getMaxDepth() && n < getCurrentDepth())

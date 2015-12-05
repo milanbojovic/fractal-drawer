@@ -14,8 +14,7 @@ public class Tree extends FractalShape{
 
     double treeX    = canvasWidth/2;
     double treeY    = canvasHeight;
-    double treeLen  = canvasHeight/3;
-
+    double treeLen;
 
     public Tree(int maxDepth, Canvas canvas, WebView webView, double bendAngle, double branchAngle, double branchRatio) {
         super(maxDepth, canvas, webView);
@@ -24,6 +23,12 @@ public class Tree extends FractalShape{
         this.bendAngle = Math.toRadians(bendAngle);
         this.branchAngle = Math.toRadians(branchAngle);
         this.branchRatio = branchRatio;
+
+        if(branchRatio == .65){
+            treeLen = canvasHeight / 3;
+        } else{
+            treeLen = canvasHeight / 3 * 1.2;
+        }
 
         this.p = 3;
         this.s = 2;

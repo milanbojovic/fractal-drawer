@@ -14,7 +14,7 @@ public class HorizontalAndVerticalCircles extends FractalShape {
     public HorizontalAndVerticalCircles(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
 
-        radius  = canvasWidth/4;
+        radius  = Math.min(canvasWidth,canvasHeight)/4;
         xMid    = canvasWidth/2;
         yMid    = canvasHeight/2;
 

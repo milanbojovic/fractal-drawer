@@ -14,14 +14,13 @@ public class SierpinskiCarpet extends FractalShape{
         super(maxDepth, canvas, webView);
         this.x = canvasWidth / 2;
         this.y = canvasHeight / 2;
-        this.side = canvasWidth - canvasWidth*0.25;
+        this.side = Math.min(canvasWidth, canvasHeight) - Math.min(canvasWidth, canvasHeight) * 0.1;
 
         this.p = 8;
         this.s = 3;
     }
 
     @Override
-
     void drawLevel0() {}
 
     @Override
@@ -32,7 +31,6 @@ public class SierpinskiCarpet extends FractalShape{
             drawCarpet(getCurrentDepth(), x - side/2, y - side/2, side);
             updateFractalDimension(getCurrentDepth());
         }
-
     }
 
     @Override
