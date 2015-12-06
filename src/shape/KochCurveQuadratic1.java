@@ -14,8 +14,8 @@ public class KochCurveQuadratic1 extends FractalShape {
     public KochCurveQuadratic1(int maxDepth, Canvas canvas, WebView webView) {
         super(maxDepth, canvas, webView);
 
-        x1 = canvasWidth*0.1;
-        x6 = canvasWidth-canvasWidth*0.1;
+        x1 = canvasWidth*0.03;
+        x6 = canvasWidth-canvasWidth*0.03;
 
         y1 = canvasHeight - (canvasHeight - (x6-x1)/2)/2;
         y6 = y1;
@@ -75,18 +75,21 @@ public class KochCurveQuadratic1 extends FractalShape {
             }
 
             //Calculate new dots
-            x2 = x1 + Math.cos(angle * Math.PI / 180) * length/3;
-            y2 = y1 + Math.sin(angle * Math.PI / 180) * length/3;
+            double piDiv180 = Math.PI / 180;
+            double newLen = length/3;
+
+            x2 = x1 + Math.cos(angle * piDiv180) * newLen;
+            y2 = y1 + Math.sin(angle * piDiv180) * newLen;
             //draw new shape
             angle = left(angle, 90);
-            x3 = x2 + Math.cos(angle * Math.PI / 180) * length/3;
-            y3 = y2 + Math.sin(angle * Math.PI / 180) * length/3;
+            x3 = x2 + Math.cos(angle * piDiv180) * newLen;
+            y3 = y2 + Math.sin(angle * piDiv180) * newLen;
             angle = right(angle, 90);
-            x4 = x3 + Math.cos(angle * Math.PI / 180) * length/3;
-            y4 = y3 + Math.sin(angle * Math.PI / 180) * length/3;
+            x4 = x3 + Math.cos(angle * piDiv180) * newLen;
+            y4 = y3 + Math.sin(angle * piDiv180) * newLen;
             angle = right(angle, 90);
-            x5 = x4 + Math.cos(angle * Math.PI / 180) * length/3;
-            y5 = y4 + Math.sin(angle * Math.PI / 180) * length/3;
+            x5 = x4 + Math.cos(angle * piDiv180) * newLen;
+            y5 = y4 + Math.sin(angle * piDiv180) * newLen;
 
             drawKochCurve(n-1, x1, y1, x2, y2);
             drawKochCurve(n-1, x2, y2, x3, y3);
