@@ -118,43 +118,43 @@ public class MainWindow implements Initializable{
     FractalShape createFractalObject(String strShape){
         switch (strShape){
             case "Horizontal Circles":
-                return new HorizontalCircles(7, canvas, webView);
+                return new HorizontalCircles(9, canvas, webView);
 
             case "Sierpinski Triangle":
-                return new SierpinskiTriangle(7, canvas, webView);
+                return new SierpinskiTriangle(8, canvas, webView);
 
             case "Sierpinski Carpet":
-                return new SierpinskiCarpet(5, canvas, webView);
+                return new SierpinskiCarpet(6, canvas, webView);
 
             case "Cantor Set":
                 return new CantorSet(7, canvas, webView);
 
             case "Horizontal and Vertical Circles":
-                return new HorizontalAndVerticalCircles(7, canvas, webView);
+                return new HorizontalAndVerticalCircles(8, canvas, webView);
 
             case "Koch Curve":
                 return new KochCurve(6, canvas, webView);
 
             case "Koch Curve (Quadratic_1)":
-                return new KochCurveQuadratic1(6, canvas, webView);
+                return new KochCurveQuadratic1(8, canvas, webView);
 
             case "Koch Curve (Quadratic_2)":
                 return new KochCurveQuadratic2(6, canvas, webView);
 
             case "Dragon Curve":
-                return new DragonCurve(17, canvas, webView, "single", "dragon");
+                return new DragonCurve(18, canvas, webView, "single", "dragon");
 
             case "Twin Dragon Curve":
-                return new DragonCurve(17, canvas, webView, "double", "dragon");
+                return new DragonCurve(18, canvas, webView, "double", "dragon");
 
             case "Levy C curve":
-                return new DragonCurve(17, canvas, webView, "single", "cCurve");
+                return new DragonCurve(18, canvas, webView, "single", "cCurve");
 
             case "Koch Snowflake":
-                return new KochSnowFlake(7, canvas, webView, "snowflake");
+                return new KochSnowFlake(9, canvas, webView, "snowflake");
 
             case "Koch Anti Snowflake":
-                return new KochSnowFlake(7, canvas, webView, "antisnowflake");
+                return new KochSnowFlake(10, canvas, webView, "antisnowflake");
 
             case "Koch Coastline":
                 return new KochCoastline(9, canvas, webView);
@@ -175,10 +175,10 @@ public class MainWindow implements Initializable{
                 return new PythagorasTree(14, canvas, webView);
 
             case "Hilbert Curve":
-                return new HilbertCurve(9, canvas, webView);
+                return new HilbertCurve(10, canvas, webView);
 
             case "TSquare":
-                return new TSquare(9, canvas, webView);
+                return new TSquare(11, canvas, webView);
 
             case "Hexaflake":
                 return new Hexaflake(6, canvas, webView);
