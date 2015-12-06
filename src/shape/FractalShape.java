@@ -14,7 +14,6 @@ public abstract class FractalShape {
 
     private int maxDepth;
     private int currentDepth;
-    private int previousDepth;
     protected Canvas canvas;
     protected WebView webView;
     protected double canvasWidth, canvasHeight;
@@ -52,14 +51,14 @@ public abstract class FractalShape {
     }
 
     public void currentDepthInc() {
-        if (currentDepth < maxDepth) previousDepth = currentDepth++;
-        System.out.println("(INC EVENT) currDep=" + currentDepth + " (" + previousDepth + ")");
+        currentDepth++;
+        System.out.println("(INC EVENT) currDep=" + currentDepth);
     }
 
     public void currentDepthDec() {
         if (currentDepth > 0)
-            previousDepth = currentDepth--;
-        System.out.println("(DEC EVENT) currDep=" + currentDepth + " (" + previousDepth + ")");
+            currentDepth--;
+        System.out.println("(DEC EVENT) currDep=" + currentDepth);
     }
 
     protected void clearCanvas() {
