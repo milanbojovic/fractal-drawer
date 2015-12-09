@@ -24,20 +24,14 @@ public class MandelbrotSet extends FractalShape {
     }
 
     @Override
-    public void drawNextDepthLevel() {
-            clearCanvas();
-            drawMandelbrot(
-                    MANDELBROT_RE_MIN,
-                    MANDELBROT_RE_MAX,
-                    MANDELBROT_IM_MIN,
-                    MANDELBROT_IM_MAX
-                    );
-            updateFractalDimension(getCurrentDepth());
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        drawNextDepthLevel();
+    public void drawCurrentLevel() {
+        drawMandelbrot(
+                MANDELBROT_RE_MIN,
+                MANDELBROT_RE_MAX,
+                MANDELBROT_IM_MIN,
+                MANDELBROT_IM_MAX
+        );
+        updateFractalDimension(getCurrentDepth());
     }
 
     private void drawMandelbrot(double reMin, double reMax, double imMin, double imMax) {

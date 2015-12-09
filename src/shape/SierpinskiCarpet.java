@@ -25,25 +25,10 @@ public class SierpinskiCarpet extends FractalShape{
     void drawLevel0() {}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            gContext.fillRect(x - side/2, y - side/2, side, side);
-            drawCarpet(getCurrentDepth(), x, y, side);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            currentDepthDec();
-            clearCanvas();
-            gContext.fillRect(x - side/2, y - side/2, side, side);
-            drawCarpet(getCurrentDepth(), x, y, side);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        gContext.fillRect(x - side/2, y - side/2, side, side);
+        drawCarpet(getCurrentDepth(), x, y, side);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawCarpet(int n, double x, double y, double side) {

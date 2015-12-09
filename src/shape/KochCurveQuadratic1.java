@@ -28,26 +28,12 @@ public class KochCurveQuadratic1 extends FractalShape {
     void drawLevel0() {gContext.strokeLine(x1, y1, x6, y6);}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            if(getCurrentDepth() == 0) drawLevel0();
-            else drawKochCurve(getCurrentDepth(), x1, y1, x6, y6);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        if(getCurrentDepth() == 0) drawLevel0();
+        else drawKochCurve(getCurrentDepth(), x1, y1, x6, y6);
+        updateFractalDimension(getCurrentDepth());
     }
 
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            if(getCurrentDepth() == 0) drawLevel0();
-            else drawKochCurve(getCurrentDepth(), x1, y1, x6, y6);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
 
     public int left(int a, int degree){
         return a - degree;

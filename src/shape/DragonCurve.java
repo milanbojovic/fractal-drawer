@@ -55,41 +55,18 @@ public class DragonCurve extends FractalShape {
     void drawLevel0() {gContext.strokeLine(x1, y1, x3, y3);}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            clearCanvas();
-            currentDepthInc();
-            if(getCurrentDepth() == 0) drawLevel0();
-            else {
-                if (mode1.equals("single")){
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
-                }
-                else {
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
-                }
+    public void drawCurrentLevel() {
+        if(getCurrentDepth() == 0) drawLevel0();
+        else {
+            if (mode1.equals("single")){
+                drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
             }
-            updateFractalDimension(mathMl);
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            if(getCurrentDepth() == 0) drawLevel0();
             else {
-                if (mode1.equals("single")){
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.BLACK);
-                }
-                else {
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
-                    drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
-                }
+                drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, true, Color.GREENYELLOW);
+                drawDragonCurve(getCurrentDepth(), x1, y1, x3, y3, false, Color.BLUE);
             }
-            updateFractalDimension(mathMl);
         }
+        updateFractalDimension(mathMl);
     }
 
     private void drawDragonCurve(int n, double x1, double y1, double x3, double y3, boolean isClockwise, Color color) {

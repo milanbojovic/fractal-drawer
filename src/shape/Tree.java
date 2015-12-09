@@ -35,27 +35,12 @@ public class Tree extends FractalShape{
     }
 
     @Override
-
     void drawLevel0() {}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            drawTree(getCurrentDepth(), treeX, treeY,-Math.PI/2, treeLen);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 1){
-            currentDepthDec();
-            clearCanvas();
-            drawTree(getCurrentDepth(), treeX, treeY,-Math.PI/2, treeLen);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawTree(getCurrentDepth(), treeX, treeY,-Math.PI/2, treeLen);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawTree(int n, double x, double y, double a, double branchRadius) {

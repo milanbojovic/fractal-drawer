@@ -35,23 +35,9 @@ public class HilbertCurve extends FractalShape {
     void drawLevel0() {}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            drawHilbertCurve(getCurrentDepth(), x, y, xI, xJ, yI, yJ);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawHilbertCurve(getCurrentDepth(), x, y, xI, xJ, yI, yJ);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawHilbertCurve(getCurrentDepth(), x, y, xI, xJ, yI, yJ);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawHilbertCurve(int n, double x, double  y, double xI, double xJ, double yI, double yJ){

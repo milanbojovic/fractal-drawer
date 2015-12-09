@@ -25,23 +25,9 @@ public class TSquare extends FractalShape {
     void drawLevel0() {}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            drawTSquare(getCurrentDepth(), x1, y1, a);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawTSquare(getCurrentDepth(), x1, y1, a);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawTSquare(getCurrentDepth(), x1, y1, a);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawTSquare(int n, double x, double  y, double a){

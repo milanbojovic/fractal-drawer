@@ -35,23 +35,9 @@ public class Hexaflake extends FractalShape {
     }
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            drawHexaflake(getCurrentDepth(), centerX, centerY, square - square * 0.1);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawHexaflake(getCurrentDepth(), centerX, centerY, square - square * 0.1);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawHexaflake(getCurrentDepth(), centerX, centerY, square - square * 0.1);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawHexaflake(int n, double cx, double  cy, double sz){

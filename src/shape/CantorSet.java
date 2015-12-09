@@ -32,24 +32,10 @@ public class CantorSet extends FractalShape {
     }
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            drawLevel0();
-            drawCantorset(1, x1, x2, y);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawLevel0();
-            drawCantorset(1, x1, x2, y);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawLevel0();
+        drawCantorset(1, x1, x2, y);
+        updateFractalDimension(getCurrentDepth());
     }
 
     public void drawCantorset(int n, double x1, double x2, double y){

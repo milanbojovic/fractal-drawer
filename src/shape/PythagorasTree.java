@@ -36,23 +36,9 @@ public class PythagorasTree extends FractalShape {
     void drawLevel0() {}
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            clearCanvas();
-            drawPythagorasTree(getCurrentDepth(), x1, y1, x2, y2);
-            updateFractalDimension(mathMl);
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawPythagorasTree(getCurrentDepth(), x1, y1, x2, y2);
-            updateFractalDimension(mathMl);
-        }
+    public void drawCurrentLevel() {
+        drawPythagorasTree(getCurrentDepth(), x1, y1, x2, y2);
+        updateFractalDimension(mathMl);
     }
 
     public void drawPythagorasTree(int n, double x1, double  y1, double x2, double y2){

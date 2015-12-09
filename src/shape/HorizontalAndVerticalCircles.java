@@ -23,24 +23,10 @@ public class HorizontalAndVerticalCircles extends FractalShape {
     }
 
     @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
-            drawLevel0();
-            draw(xMid, yMid, radius, 1);
-            updateFractalDimension(getCurrentDepth());
-        }
-    }
-
-    @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 0){
-            clearCanvas();
-            currentDepthDec();
-            drawLevel0();
-            draw(xMid, yMid, radius, 1);
-            updateFractalDimension(getCurrentDepth());
-        }
+    public void drawCurrentLevel() {
+        drawLevel0();
+        draw(xMid, yMid, radius, 1);
+        updateFractalDimension(getCurrentDepth());
     }
 
     @Override

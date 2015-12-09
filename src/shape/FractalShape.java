@@ -19,13 +19,25 @@ public abstract class FractalShape {
     protected double canvasWidth, canvasHeight;
     protected GraphicsContext gContext;
 
-
     abstract void drawLevel0();
 
-    public abstract void drawNextDepthLevel();
+    public void drawNextDepthLevel(){
+        if(getCurrentDepth() != getMaxDepth()){
+            currentDepthInc();
+            clearCanvas();
+            drawCurrentLevel();
+        }
+    }
 
-    public abstract void drawPrevDepthLevel();
+    public void drawPrevDepthLevel(){
+        if(getCurrentDepth() > 0){
+            clearCanvas();
+            currentDepthDec();
+            drawCurrentLevel();
+        }
+    }
 
+    public abstract void drawCurrentLevel();
 
     public FractalShape(int maxDepth, Canvas canvas, WebView webView) {
         this.maxDepth = maxDepth;
@@ -34,6 +46,10 @@ public abstract class FractalShape {
         gContext = canvas.getGraphicsContext2D();
         currentDepth = -1;
 
+        initCanvasWidthHeight();
+    }
+
+    public void initCanvasWidthHeight(){
         canvasWidth = canvas.getWidth();
         canvasHeight = canvas.getHeight();
     }
@@ -46,7 +62,7 @@ public abstract class FractalShape {
         return maxDepth;
     }
 
-    protected int getCurrentDepth() {
+    public int getCurrentDepth() {
         return currentDepth;
     }
 

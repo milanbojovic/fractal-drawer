@@ -1,10 +1,15 @@
 package code;
 
+import javafx.beans.InvalidationListener;
+import javafx.beans.Observable;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ListView;
@@ -24,14 +29,12 @@ public class MainWindow implements Initializable{
     public WebView webView;
     private GraphicsContext gContext;
     private FractalShape selectedShape;
-
+    private Scene scene;
 
     @FXML
     private ListView<String> listView;
     private ObservableList<String> listViewData = FXCollections.observableArrayList();
 
-
-    
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         //Init Canvas
@@ -67,19 +70,48 @@ public class MainWindow implements Initializable{
         listViewData.add("TSquare");
         listViewData.add("Hexaflake");
 
-
         listView.setItems(listViewData);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>(){
-
             @Override
             public void handle(MouseEvent arg0) {
                 resetCanvas();
                 resizeCanvas();
                 selectedShape = createFractalObject(getCurrentSelection());
             }
+        });
+    }
 
+    public void setScene(Scene scene) {
+        this.scene = scene;
+
+        scene.widthProperty().addListener(new ChangeListener<Number>() {
+            public void changed(ObservableValue<? extends Number> ov,
+                                Number old_val, Number new_val) {
+                resizeCanvas();
+                gContext.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
+                method();
+            }
         });
 
+        scene.heightProperty().addListener(new ChangeListener<Number>() {
+            public void changed(ObservableValue<? extends Number> ov,
+                                Number old_val, Number new_val) {
+                resizeCanvas();
+                gContext.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
+                method();
+            }
+        });
+    }
+
+    public void method(){
+        if(selectedShape != null) {
+            selectedShape.initCanvasWidthHeight();
+
+            int depth = selectedShape.getCurrentDepth();
+            selectedShape = createFractalObject(getCurrentSelection());
+            selectedShape.setCurrentDepth(depth);
+            selectedShape.drawCurrentLevel();
+        }
     }
 
     public void resizeCanvas(){
@@ -87,16 +119,15 @@ public class MainWindow implements Initializable{
         canvas.setHeight(canwrap.getHeight());
     }
 
-    public void resetCanvas(){
+    public void resetCanvas() {
         gContext.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
-        if(selectedShape != null) selectedShape = null;
+        if (selectedShape != null) selectedShape = null;
         webView.getEngine().loadContent(FractalShape.emptyFractalDimension);
     }
 
     @FXML
     public void drawNextDepthLevel(){
         if(selectedShape != null){
-            resizeCanvas();
             selectedShape.drawNextDepthLevel();
         }
         else{
@@ -107,7 +138,6 @@ public class MainWindow implements Initializable{
     @FXML
     public void drawPrevDepthLevel(){
         if(selectedShape != null){
-            resizeCanvas();
             selectedShape.drawPrevDepthLevel();
         }
         else{
