@@ -208,7 +208,7 @@ public class MainWindow implements Initializable{
                 return new HilbertCurve(10, canvas, webView);
 
             case "TSquare":
-                return new TSquare(11, canvas, webView);
+                return new TSquare(10, canvas, webView);
 
             case "Hexaflake":
                 return new Hexaflake(6, canvas, webView);
