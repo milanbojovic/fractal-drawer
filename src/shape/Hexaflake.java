@@ -26,8 +26,8 @@ public class Hexaflake extends FractalShape {
         Y2 = 0;
         REDUCE = 0.3333;
 
-        //p = 4;
-        //s = 3;
+        p = 7;
+        s = 3;
     }
 
     @Override
