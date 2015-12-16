@@ -81,15 +81,13 @@ public class PythagorasTree extends FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                     <mfenced>\n" +
                         "                           <mtext>P</mtext>\n" +
                         "                     </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>S</mtext>\n" +
                         "                  </mfenced>\n" +
@@ -100,15 +98,13 @@ public class PythagorasTree extends FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>" + (int)p + "</mtext>\n" +
                         "                  </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                   <mfrac>\n" +
                         "                       <mrow>\n" +

@@ -91,15 +91,13 @@ public abstract class FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                     <mfenced>\n" +
                         "                           <mtext>P</mtext>\n" +
                         "                     </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>S</mtext>\n" +
                         "                  </mfenced>\n" +
@@ -110,15 +108,13 @@ public abstract class FractalShape {
                         "            <mtext> </mtext>\n" +
                         "            <mfrac>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>" + p + "</mtext>\n" +
                         "                  </mfenced>\n" +
                         "               </mrow>\n" +
                         "               <mrow>\n" +
-                        "                  <mtext>log</mtext>\n" +
-                        "                  <mo>&InvisibleTimes;</mo>\n" +
+                        "                  <mi>log</mi>\n" +
                         "                  <mfenced>\n" +
                         "                     <mtext>" + s + "</mtext>\n" +
                         "                  </mfenced>\n" +
@@ -146,15 +142,13 @@ public abstract class FractalShape {
             "            <mtext> </mtext>\n" +
             "            <mfrac>\n" +
             "               <mrow>\n" +
-            "                  <mtext>log</mtext>\n" +
-            "                  <mo>&InvisibleTimes;</mo>\n" +
+            "                  <mi>log</mi>\n" +
             "                     <mfenced>\n" +
             "                           <mtext>P</mtext>\n" +
             "                     </mfenced>\n" +
             "               </mrow>\n" +
             "               <mrow>\n" +
-            "                  <mtext>log</mtext>\n" +
-            "                  <mo>&InvisibleTimes;</mo>\n" +
+            "                  <mi>log</mi>\n" +
             "                  <mfenced>\n" +
             "                     <mtext>S</mtext>\n" +
             "                  </mfenced>\n" +
