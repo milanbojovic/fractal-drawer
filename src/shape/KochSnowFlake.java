@@ -50,6 +50,14 @@ public class KochSnowFlake extends FractalShape {
         //not used
     }
 
+    public void drawPrevDepthLevel(){
+        if(getCurrentDepth() > 1){
+            clearCanvas();
+            currentDepthDec();
+            drawCurrentLevel();
+        }
+    }
+
     @Override
     public void drawCurrentLevel() {
         drawSnowFlake(getCurrentDepth(), x1, y1, x2, y2);

@@ -32,26 +32,19 @@ public class KochCoastline extends FractalShape {
     void drawLevel0() {
     }
 
-    @Override
-    public void drawNextDepthLevel() {
-        if(getCurrentDepth() != getMaxDepth()) {
-            currentDepthInc();
+    public void drawPrevDepthLevel(){
+        if(getCurrentDepth() > 1){
             clearCanvas();
-            drawCoast(getCurrentDepth(), x1, y1, x2, y2);
-            drawCoast(getCurrentDepth(), x2, y2, x3, y3);
-            drawCoast(getCurrentDepth(), x3, y3, x1, y1);
+            currentDepthDec();
+            drawCurrentLevel();
         }
     }
 
     @Override
-    public void drawPrevDepthLevel() {
-        if(getCurrentDepth() > 1){
-            currentDepthDec();
-            clearCanvas();
-            drawCoast(getCurrentDepth(), x1, y1, x2, y2);
-            drawCoast(getCurrentDepth(), x2, y2, x3, y3);
-            drawCoast(getCurrentDepth(), x3, y3, x1, y1);
-        }
+    public void drawCurrentLevel() {
+        drawCoast(getCurrentDepth(), x1, y1, x2, y2);
+        drawCoast(getCurrentDepth(), x2, y2, x3, y3);
+        drawCoast(getCurrentDepth(), x3, y3, x1, y1);
     }
 
     public void drawCoast(int n, double x1, double  y1, double x5, double y5){
