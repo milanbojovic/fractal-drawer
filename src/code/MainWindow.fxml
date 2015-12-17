@@ -12,26 +12,14 @@
 <children>
     <MenuBar VBox.vgrow="NEVER">
         <menus>
-            <Menu mnemonicParsing="false" text="_File">
+            <Menu mnemonicParsing="false" onAction="#closeButtonAction" text="_File">
                 <items>
-                    <MenuItem mnemonicParsing="false" text="New" />
-                    <MenuItem mnemonicParsing="false" text="Open…" />
-                    <Menu mnemonicParsing="false" text="Open Recent" />
-                    <SeparatorMenuItem mnemonicParsing="false" />
-                    <MenuItem mnemonicParsing="false" text="Close" />
-                    <MenuItem mnemonicParsing="false" text="Save" />
-                    <MenuItem mnemonicParsing="false" text="Save As…" />
-                    <MenuItem mnemonicParsing="false" text="Revert" />
-                    <SeparatorMenuItem mnemonicParsing="false" />
-                    <MenuItem mnemonicParsing="false" text="Preferences…" />
-                    <SeparatorMenuItem mnemonicParsing="false" />
-                    <MenuItem mnemonicParsing="false" text="Quit" />
+                    <MenuItem mnemonicParsing="false" onAction="#closeButtonAction" text="Quit" />
                 </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="_Edit">
+            <Menu fx:id="close" mnemonicParsing="false" text="_Edit">
                 <items>
                     <MenuItem mnemonicParsing="false" onAction="#resetCanvas" text="Clear Canvas" />
-                    <SeparatorMenuItem mnemonicParsing="false" />
                 </items>
             </Menu>
             <Menu mnemonicParsing="false" text="_Help">
@@ -45,7 +33,7 @@
          <children>
             <SplitPane dividerPositions="0.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <items>
-                <AnchorPane fx:id="levi" minWidth="220" maxWidth="250">
+                <AnchorPane fx:id="levi" maxWidth="250" minWidth="220">
                      <children>
                         <VBox prefHeight="371.0" prefWidth="186.0" spacing="4.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
@@ -71,7 +59,7 @@
                   </AnchorPane>
                   <AnchorPane>
                      <children>
-                        <SplitPane dividerPositions="0.8589065255731922" orientation="VERTICAL" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <SplitPane disable="true" dividerPositions="0.8694885361552028" orientation="VERTICAL" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <items>
                             <AnchorPane fx:id="canwrap" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
                             <AnchorPane fx:id="fracDimensionWrap" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">

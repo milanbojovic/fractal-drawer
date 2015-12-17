@@ -16,6 +16,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 import shape.*;
 
 import java.net.URL;
@@ -226,5 +227,13 @@ public class MainWindow implements Initializable{
     public void OpenAboutPage(){
         System.out.println("Opening about page");
         About.display();
+    }
+
+    @FXML
+    private void closeButtonAction(){
+        // get a handle to the stage
+        Stage stage = (Stage) scene.getWindow();
+        // do what you have to do
+        stage.close();
     }
 }
