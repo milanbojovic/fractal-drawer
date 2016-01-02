@@ -7,7 +7,6 @@
 * Java graphical user interface application for iterative drawing of fractal images
   This application is written for university purposes as final graduate work. 
   It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
-* __Live DEMO could be found [HERE](http://130.255.72.230/fractalDrawer)__
 
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fraktal_images/Application_look.png)
