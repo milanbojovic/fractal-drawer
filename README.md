@@ -1,6 +1,4 @@
-# README #
-
-JAVA FX GUI APPLICATION FOR DRAWING FRACTAL SHAPES
+# JavaFX GUI APPLICATION FOR DRAWING FRACTAL SHAPES
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
