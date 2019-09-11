@@ -16,16 +16,16 @@
 |Horizontal and vertical circles|
 |Sierpinski triangle|
 |Sierpinski carpet|
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
+|Cantor set|
+|Koch Curve|
+|Koch curve (squared 1)|
+|Koch curve (squared 2)|
+|Dragon curve|
+|Dragon curve (double)|
+|Levy C curve|
+|Koch Snowflake|
+|Koch Anti Snowflake|
+|Koch cos|
 
 
 
@@ -102,5 +102,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTQyODkxMV19
+eyJoaXN0b3J5IjpbNTk1NTk4NTI1XX0=
 -->
