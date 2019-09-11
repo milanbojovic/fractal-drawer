@@ -8,27 +8,6 @@
   This application is written for university purposes as final graduate work. 
   It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
 
-### Fractal shapes supported
-
-| Fractal shapes |
-|--|
-|Horizontal circles|
-|Horizontal and vertical circles|
-|Sierpinski triangle|
-|Sierpinski carpet|
-|Cantor set|
-|Koch Curve|
-|Koch curve (squared 1)|
-|Koch curve (squared 2)|
-|Dragon curve|
-|Dragon curve (double)|
-|Levy C curve|
-|Koch Snowflake|
-|Koch Anti Snowflake|
-|Koch cos|
-
-
-
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fraktal_images/Application_look.png)
 
@@ -102,5 +81,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NTk4NTI1XX0=
+eyJoaXN0b3J5IjpbLTE3MTU5NDM0OTBdfQ==
 -->
