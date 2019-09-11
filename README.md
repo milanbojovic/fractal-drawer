@@ -22,6 +22,32 @@
 
 
 >### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
+### Fractal shapes supported
+
+| Fractal shapes |
+|--|
+|Horizontal circles|
+|Horizontal and vertical circles|
+|Sierpinski triangle|
+|Sierpinski carpet|
+|Cantor set|
+|Koch Curve|
+|Koch curve (squared 1)|
+|Koch curve (squared 2)|
+|Dragon curve|
+|Dragon curve (double)|
+|Levy C curve|
+|Koch Snowflake|
+|Koch Anti Snowflake|
+|Koch costline|
+|Mandelbrot set|
+|Tree|
+|Tree 60 degree|
+|Tree 90 degree|
+|Pythagoras tree|
+|Hilbert Curve|
+|TSquare|
+|Hexaflake|
 >>#####1.   Sierpinski Triangle
 ![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fraktal_images/Sierpinski%20triangle/5.png)
 >>#####2.   Sierpinski Carpet
@@ -81,5 +107,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU5NDM0OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTE4ODI0NV19
 -->
