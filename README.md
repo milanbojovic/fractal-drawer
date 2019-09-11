@@ -8,6 +8,14 @@
   This application is written for university purposes as final graduate work. 
   It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
 
+### Fractal shapes supported
+
+| Fractal shape | Supported |  |
+|--|--|--|
+|  |  |
+
+
+
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fraktal_images/Application_look.png)
 
@@ -80,3 +88,6 @@ Contact:
 Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODk2NDgyMzEwXX0=
+-->
