@@ -10,11 +10,22 @@
 
 ### Fractal shapes supported
 
-| Fractal shape |
+| Fractal shapes |
 |--|
 |Horizontal circles|
 |Horizontal and vertical circles|
 |Sierpinski triangle|
+|Sierpinski carpet|
+||
+||
+||
+||
+||
+||
+||
+||
+||
+||
 
 
 
@@ -91,5 +102,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTc3NjA1MF19
+eyJoaXN0b3J5IjpbLTk0MTQyODkxMV19
 -->
