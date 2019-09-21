@@ -36,7 +36,7 @@ Run the app:
 * Fractal dimension is displayed in bottom split pane
 
 
-### Fractal shapes supported
+### Shapes visualized
 
 | Fractal shape |Visualization|
 |--|--|
@@ -63,44 +63,9 @@ Run the app:
 |TSquare|![TSquare](images/t-square.png)
 |Hexaflake|![Hexaflake](images/hexaflake.png)
 
->>#####5.     Koch Curve (Quadratic_1)
-![Koch Curve (Quadratic_1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
->>#####6.    Koch Curve (Quadratic_2)
-![Koch Curve (Quadratic_2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
->>#####7.    Dragon Curve
 
->>#####8.    Twin Dragon Curve
-![Twin Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Twin%20Dragon%20Curve/t5.png)
->>#####9. Levy C curve
-![Levy C curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Levy%20Curve/5.png)
->>#####10. Koch Snowflake
-![Koch Snowflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Snowflake/1.png)
->>#####11. Koch Anti Snowflake
-![Koch Anti Snowflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Anti%20Snowflake/1.png)
->>#####12. Koch Coastline
-![Koch Coastline](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Coastline/1.png)
->>#####13. Mandelbrot Set
-![Mandelbrot Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Mandelbrot%20set/Mandelbrot_set_app.png)
->>#####14. Tree
-![Tree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%20basic/5.png)
->>#####15. Tree 60 degree
-![Tree 60 degree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%2060%20degree/5.png)
->>#####16. Tree 90 degree
-![Tree 90 degree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%2090%20degree/5.png)
->>#####17. Pythagoras tree
-![Pythagoras tree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Pythagoras%20tree/5.png)
->>#####18. Hilbert Curve
-![Hilbert Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Hilbert%20curve/5.png)
->>#####19. TSquare
-![TSquare](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/TSquare/5.png)
->>#####20. Hexaflake
-![Hexaflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Hexaflake/5.png)
->>#####21. Horizontal Circles
-![Horizontal Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Horizontal%20Circles/1.png)
-
-
-### Implementation details ###
-Application is written using Java programming language using JavaFX framework (2.0), application look is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Package __`"code"`__ holds source code used for presentation layer (JavaFx). Package __`"shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just redefine drawing method for particular shape. All shapes in this application are written using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
+### Implementation details
+Application was written in Java using JavaFX framework, application look is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Package __`"code"`__ holds source code used for presentation layer (JavaFx). Package __`"shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just redefine drawing method for particular shape. All shapes in this application are written using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
 Fractal dimension is displayed using lightweight HTML 5 browser embedded in bottom split pane of the application - this browser displays math formulas which are generated using __MathML__ language when new shape is displayed on graphical canvas. MathML syntax could be found [here](http://www.tutorialspoint.com/html5/html5_mathml.htm).
 
 ### Who do I talk to? ###
@@ -113,9 +78,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA0NDMxMTksMTQzMjYzNzU3NSwxMj
-g1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUx
-MjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3ND
-UzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwt
-OTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMTI1NTI4ODUxOSwxNDMyNjM3NTc1LDEyOD
+UwNzQwNjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEy
+NjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NT
+MsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05
+MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
