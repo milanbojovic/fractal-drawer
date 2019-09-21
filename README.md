@@ -13,6 +13,10 @@
 |Java|![https://img.shields.io/badge/java-11-blue](https://img.shields.io/badge/java-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
+### What is this repository for?
+
+* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate how fractal shapes are formed. User interface allows iterating vizualization of some famous fractal shapes.
+
   ### Installation
 Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with following steps:
 
@@ -23,11 +27,6 @@ Run the app:
 
     mvn javafx:run
        
-
-### What is this repository for? ###
-
-* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate forming of fractal shapes to students on department of mathematics. User interface allows iterating vizualization of some famous fractal shapes.
-* 
 ### How do I run and use this app? ###
 
 * In order to run this app. you must have Java JRE 1.11 or newer installed on your system (app. is platform independent - should run on Windows, Mac, Linux and other systems if Java is installed)
@@ -125,7 +124,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc3ODY3MjEsLTExMjM4NjQ2ODcsLT
+eyJoaXN0b3J5IjpbLTEyMjgzNzMxNDEsLTExMjM4NjQ2ODcsLT
 k0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4
 ODI0NV19
 -->
