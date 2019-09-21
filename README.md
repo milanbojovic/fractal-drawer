@@ -61,7 +61,7 @@ Run the app:
 |Pythagoras tree|![Pythagoras Tree](images/pythagoras-tree.png)
 |Hilbert Curve|![Hilbert Curve](images/hilbert-curve.png)
 |TSquare|![TSquare](images/t-square.png)
-|Hexaflake|![Hexaflake]
+|Hexaflake|![Hexaflake](images/hexaflake)
 
 >>#####5.     Koch Curve (Quadratic_1)
 ![Koch Curve (Quadratic_1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
@@ -113,9 +113,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNTg1NDg0LC00OTEzODQ3MjIsLTE0MD
-kwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4
-OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5Mj
-ksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMTI4NTA3NDA2OSwtNDkxMzg0NzIyLC0xND
+A5MDI4MjkwLC0xNjU1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2
+ODk5MDUsMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOT
+I5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
 
 -->
