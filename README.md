@@ -9,7 +9,7 @@
   It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
 
 ### Fractal_Drawer image ###
-![Fractal Drawer image]([https://github.com/milanbojovic/java-fx-gui-fractal-drawer/blob/master/Fractal_images/fractal-drawer-demonstration.gif]()
+![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
 
 ### How do I run and use this app? ###
 
@@ -107,5 +107,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTM3NDIwNywtNDU5MTg4MjQ1XX0=
+eyJoaXN0b3J5IjpbMTU4Mzk4MDE3NSwtNDU5MTg4MjQ1XX0=
 -->
