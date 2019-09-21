@@ -17,7 +17,7 @@
 
 * This JavaFx gui application for visualizing fractal images was written as my final graduation work, it's purpose is to demonstrate how fractal shapes are formed. User interface allows user to choose fractal shape and to observe vizualization step by step for famous fractal shapes.
 
-  ### Installation
+ ### Installation
 Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with following steps:
 
 Clone git repository:
@@ -30,7 +30,6 @@ Run the app:
 ### How do I run and use this app? ###
 
 * In order to run this app. you must have Java JRE 1.11 or newer installed on your system (app. is platform independent - should run on Windows, Mac, Linux and other systems if Java is installed)
-* To start using this application simply download and run __GUI_Fractal_Drawer_JAVA_FX.jar__ file
 * Select fractal shape from __FRACTAL SHAPES LIST__
 * Click on button: __Level ++__ to view next iteration in fractal construction
 * Click on button: __Level --__ to view previous iteration in fractal construction
@@ -124,7 +123,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODIxNTE2NSwtMTEyMzg2NDY4NywtOT
-Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
-MjQ1XX0=
+eyJoaXN0b3J5IjpbLTE0ODA2NjcxNzAsLTExMjM4NjQ2ODcsLT
+k0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4
+ODI0NV19
 -->
