@@ -14,9 +14,13 @@
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
   ### Installation
-Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) use following command to clone repo to your local d:
+Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with command to clone repo to your local dir:
 
     git clone git@github.com:milanbojovic/fractal-drawer.git
+
+
+
+
     mvn javafx:run
     
 
@@ -26,7 +30,7 @@ Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Ma
 * 
 ### How do I run and use this app? ###
 
-* In order to run this app. you must have Java JRE 1.7 or newer installed on your system (app. is platform independent - should run on Windows, Mac, Linux and other systems if Java is installed)
+* In order to run this app. you must have Java JRE 1.11 or newer installed on your system (app. is platform independent - should run on Windows, Mac, Linux and other systems if Java is installed)
 * To start using this application simply download and run __GUI_Fractal_Drawer_JAVA_FX.jar__ file
 * Select fractal shape from __FRACTAL SHAPES LIST__
 * Click on button: __Level ++__ to view next iteration in fractal construction
@@ -120,7 +124,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMTgzNDYwLC0xMTIzODY0Njg3LC05ND
-c3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgy
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTkzMTM1ODU1NiwtMTEyMzg2NDY4NywtOT
+Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
+MjQ1XX0=
 -->
