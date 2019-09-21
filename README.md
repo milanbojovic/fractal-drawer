@@ -36,6 +36,11 @@ Run the app:
 * Fractal dimension is displayed in bottom split pane
 
 
+|Name|Visualization |
+|--|--|
+| Sierpinski Triangle | ![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png) |
+
+
 >### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
 ### Fractal shapes supported
 
@@ -123,7 +128,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOT
-Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
-MjQ1XX0=
+eyJoaXN0b3J5IjpbMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMT
+IzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4
+NDk3LC00NTkxODgyNDVdfQ==
 -->
