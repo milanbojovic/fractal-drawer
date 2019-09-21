@@ -40,7 +40,7 @@ Run the app:
 
 | Fractal shape |Visualization|
 |--|--|
-|Sierpinski triangle|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)|
+|Sierpinski triangle|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/horizontal-circles.png)|
 |Horizontal and Vertical Circles|![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Vertical%20Circles/1.png)
 |Sierpinski carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
 |Cantor set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Cantor%20Set/1.png)
@@ -113,8 +113,8 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLT
-E4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIz
-ODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4ND
-k3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTg0NzExMjcxMCwtMTQwOTAyODI5MCwtMT
+Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
+ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
+EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
