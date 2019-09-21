@@ -35,7 +35,7 @@ Run the app:
 * Click on button: __Level --__ to view previous iteration in fractal construction
 * Fractal dimension is displayed in bottom split pane
 
->### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
+
 ### Fractal shapes supported
 
 | Fractal shape |Visualization|
@@ -113,9 +113,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjYzNzU3NSwxMjg1MDc0MDY5LC00OT
-EzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEz
-NTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Nj
-g3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00
-NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTA0NDMxMTksMTQzMjYzNzU3NSwxMj
+g1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUx
+MjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3ND
+UzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwt
+OTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
