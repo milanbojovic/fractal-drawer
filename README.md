@@ -35,18 +35,16 @@ Run the app:
 * Click on button: __Level --__ to view previous iteration in fractal construction
 * Fractal dimension is displayed in bottom split pane
 
-
-|Name|Visualization |
-|--|--|
-| Sierpinski Triangle | ![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png) |
-
-
 >### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
 ### Fractal shapes supported
 
 | Fractal shapes |
-|--|
+|--|--|
 |Horizontal circles|
+|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)|
+
+
+
 |Horizontal and vertical circles|
 |Sierpinski triangle|
 |Sierpinski carpet|
@@ -127,7 +125,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU2NTkxMDgsMTQ2NTY4OTkwNSwxMj
-A2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkx
-NjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMTg5OTg4NzU0LDE0NjU2ODk5MDUsMTIwNj
+U4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4ODg5MTY1
+MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
