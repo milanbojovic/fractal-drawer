@@ -48,7 +48,7 @@ Run the app:
 |Koch Curve (Quadratic 1)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
 |Koch Curve (Squared 1)|![Koch Curve (Squared 1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
-|Koch Curve (Squared 1)|![Koch Curve (Squared 1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
+|Koch Curve (Squared 2)|![Koch Curve (Squared 2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
 |Dragon curve|![Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Dragon%20Curve/5.png)
 |Dragon curve (double)|
 |Levy C curve|
@@ -114,7 +114,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTA2NTA2MCwtMTg1MTM1NjU2MiwxND
+eyJoaXN0b3J5IjpbMTU3NzE5MjQ1MywtMTg1MTM1NjU2MiwxND
 Y1Njg5OTA1LDEyMDY1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3
 MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV
 19
