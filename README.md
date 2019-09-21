@@ -40,16 +40,16 @@ Run the app:
 
 | Fractal shape |Visualization|
 |--|--|
-|Horizontal Circles|![Horizontal Circles](images/horizontal-circles.png)
-|Horizontal and Vertical Circles|![Horizontal and Vertical Circles](images/vertical-circles.png)
-|Sierpinski Triangle|![Sierpinski Carpet](images/sierpinski-triangle.png)
-|Sierpinski Carpet|![Sierpinski Carpet](images/sierpinski-carpet.png)
-|Cantor Set|![Cantor Set](images/cantor-set.png)
-|Koch Curve|![Koch Curve](images/koch-curve.png)
-|Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
-|Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
-|Dragon Curve|![Dragon Curve](images/dragon-curve.png)
-|Dragon Curve (double)|![Dragon Curve Double](images/twin-dragon-curve.png)
+| **Horizontal Circles**|![Horizontal Circles](images/horizontal-circles.png)
+|**Horizontal and Vertical Circles**|![Horizontal and Vertical Circles](images/vertical-circles.png)
+|**Sierpinski Triangle**|![Sierpinski Carpet](images/sierpinski-triangle.png)
+|**Sierpinski Carpet**|![Sierpinski Carpet](images/sierpinski-carpet.png)
+|**Cantor Set**|![Cantor Set](images/cantor-set.png)
+|**Koch Curve**|![Koch Curve](images/koch-curve.png)
+|**Koch Curve (Quadratic 1)**|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
+|**Koch Curve (Quadratic 2)**|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
+|**Dragon Curve**|![Dragon Curve](images/dragon-curve.png)
+|**Dragon Curve (double)**|![Dragon Curve Double](images/twin-dragon-curve.png)
 |Levy C curve|![Levy Curve](images/levy-curve.png)
 |Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
 |Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
@@ -78,9 +78,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDc3NjQ3NiwxNDMyNjM3NTc1LDEyOD
-UwNzQwNjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEy
-NjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NT
-MsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05
-MjgyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbLTExMDkyMTkyNDgsMTQzMjYzNzU3NSwxMj
+g1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUx
+MjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3ND
+UzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwt
+OTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
