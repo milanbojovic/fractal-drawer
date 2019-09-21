@@ -5,7 +5,7 @@
 
 ### What is this repository for? ###
 
-* Java graphical user interface application for iterative drawing of fractal images
+* This application is written JavaFx gui application for visualizing fractal images.
   This application is written for university purposes as final graduate work. 
   It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
 
@@ -108,6 +108,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NT
-kxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQzNTM3OCwxODg4OTE2NTEwLC05Mj
+gyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
