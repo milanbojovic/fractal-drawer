@@ -40,8 +40,7 @@ Run the app:
 
 | Fractal shape |Visualization|
 |--|--|
-|Horizontal Circles|![Sierpinski Triangle](images/horizontal-circles.png)
-|
+|Horizontal Circles|![Horizontal Circles](images/horizontal-circles.png)
 |Horizontal and Vertical Circles|![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/vertical-circles.png)
 |Sierpinski Triangle|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-triangle.png)
 |Sierpinski Carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-carpet.png)
@@ -115,7 +114,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODkyNDIzNywtMTQwOTAyODI5MCwtMT
+eyJoaXN0b3J5IjpbMTMxMDgwNDE1MSwtMTQwOTAyODI5MCwtMT
 Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
 ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
 EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
