@@ -49,8 +49,8 @@ Run the app:
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-1.png)
 |Dragon curve|![Dragon Curve](images/dragon-curve.png)
-|Dragon curve (double)|
-|Levy C curve|
+|Dragon curve (double)|![Dragon Curve Double](images/twin-dragon-curve.png)
+|Levy C curve|![Levy Curve](images/levy-curve.png)
 |Koch Snowflake|
 |Koch Anti Snowflake|
 |Koch costline|
@@ -113,8 +113,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMT
-Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
-ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
-EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbMTY5MzE3OTY4MiwtNDkxMzg0NzIyLC0xND
+A5MDI4MjkwLC0xNjU1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2
+ODk5MDUsMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOT
+I5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
+
 -->
