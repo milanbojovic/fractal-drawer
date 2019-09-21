@@ -16,12 +16,10 @@
   ### Installation
 Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with following steps:
 
-1. Clone repository to your local dir:
+Clone git repository:
 
     git clone git@github.com:milanbojovic/fractal-drawer.git
-
-
-
+Run the app:
 
     mvn javafx:run
     
@@ -30,7 +28,6 @@ Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Ma
 
     mvn javafx:run
     
-
 
 ### What is this repository for? ###
 
@@ -131,8 +128,9 @@ Contact:
 Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDY4MTI0NSwtMTEyMzg2NDY4NywtOT
+eyJoaXN0b3J5IjpbMTkxMjA1MDUyMSwtMTEyMzg2NDY4NywtOT
 Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
 MjQ1XX0=
 -->
