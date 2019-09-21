@@ -38,10 +38,16 @@ Run the app:
 >### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
 ### Fractal shapes supported
 
-| Fractal shapes |
+
+|  |  |
 |--|--|
-|Horizontal circles|
-|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)|
+|  |  |
+
+
+
+| Fractal shape |Visualization|
+|--|--|
+|Sierpinski triangle|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)|
 
 
 
@@ -125,7 +131,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTg4NzU0LDE0NjU2ODk5MDUsMTIwNj
-U4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4ODg5MTY1
-MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
+eyJoaXN0b3J5IjpbLTk3OTg4MjA3NSwxNDY1Njg5OTA1LDEyMD
+Y1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2
+NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
