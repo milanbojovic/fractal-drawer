@@ -1,6 +1,7 @@
 # Fractal Drawer (visualizer) #
 
-## JavaFx GUI application for drawing fractal shapes ##
+## JavaFx GUI application for drawing fractal shapes ## 
+![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/kaggle-kobe-bryant-shot-selection) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ### What is this repository for? ###
 
@@ -107,5 +108,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgwMjIwMzksLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
