@@ -14,7 +14,9 @@
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
   ### Installation
-Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with command to clone repo to your local dir:
+Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with following steps:
+
+1. Clone repository to your local dir:
 
     git clone git@github.com:milanbojovic/fractal-drawer.git
 
@@ -23,6 +25,12 @@ Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Ma
 
     mvn javafx:run
     
+
+1. Clone repository to your local dir:
+
+    mvn javafx:run
+    
+
 
 ### What is this repository for? ###
 
@@ -124,7 +132,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTM1ODU1NiwtMTEyMzg2NDY4NywtOT
+eyJoaXN0b3J5IjpbMTM5MDY4MTI0NSwtMTEyMzg2NDY4NywtOT
 Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
 MjQ1XX0=
 -->
