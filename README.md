@@ -45,7 +45,6 @@ Run the app:
 |Sierpinski carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
 |Cantor set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Cantor%20Set/1.png)
 |Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
-|Koch Curve (Quadratic 1)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
 |Koch Curve (Squared 1)|![Koch Curve (Squared 1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
 |Koch Curve (Squared 2)|![Koch Curve (Squared 2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
@@ -114,8 +113,8 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzE5MjQ1MywtMTg1MTM1NjU2MiwxND
-Y1Njg5OTA1LDEyMDY1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3
-MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV
-19
+eyJoaXN0b3J5IjpbLTI1Njk3MDI1LC0xODUxMzU2NTYyLDE0Nj
+U2ODk5MDUsMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3Nzcz
+OTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX
+0=
 -->
