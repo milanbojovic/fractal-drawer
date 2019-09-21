@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ### Fractal_Drawer image ###
-![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
+![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
 
   ### Reqirements
 |Reqirement||
@@ -47,21 +47,21 @@ Run the app:
 |Cantor Set|![Cantor Set](images/cantor-set.png)
 |Koch Curve|![Koch Curve](images/koch-curve.png)
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
-|Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-1.png)
+|Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
 |Dragon Curve|![Dragon Curve](images/dragon-curve.png)
 |Dragon Curve (double)|![Dragon Curve Double](images/twin-dragon-curve.png)
 |Levy C curve|![Levy Curve](images/levy-curve.png)
 |Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
 |Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
 |Koch Costline|![Koch Coastline](images/koch-coastline.png)
-|Mandelbrot Set|![Mandelbrot Set](images/koch-snowflake.png)
+|Mandelbrot Set|![Mandelbrot Set](images/mandelbrot-set.png)
 |Tree|![Tree](images/tree-basic.png)
 |Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
 |Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
 |Pythagoras tree|![Pythagoras Tree](images/pythagoras-tree.png)
 |Hilbert Curve|![Hilbert Curve](images/hilbert-curve.png)
 |TSquare|![TSquare](images/t-square.png)
-|Hexaflake|![Hexaflake](images/hexaflake)
+|Hexaflake|![Hexaflake](images/hexaflake.png)
 
 >>#####5.     Koch Curve (Quadratic_1)
 ![Koch Curve (Quadratic_1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
@@ -113,9 +113,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTA3NDA2OSwtNDkxMzg0NzIyLC0xND
-A5MDI4MjkwLC0xNjU1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2
-ODk5MDUsMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOT
-I5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
-
+eyJoaXN0b3J5IjpbMTQzMjYzNzU3NSwxMjg1MDc0MDY5LC00OT
+EzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEz
+NTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Nj
+g3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00
+NTkxODgyNDVdfQ==
 -->
