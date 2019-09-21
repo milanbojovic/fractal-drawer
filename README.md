@@ -65,7 +65,7 @@ Run the app:
 
 
 ### Implementation details
-Application was written in Java using JavaFX framework, application look is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Package __`"code"`__ holds source code used for presentation layer (JavaFx). Package __`"shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just redefine drawing method for particular shape. All shapes in this application are written using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
+Application was written in Java using JavaFX framework, application's graphical interface is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Package __`"code"`__ holds source code used for presentation layer (JavaFx). Package __`"shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just redefine drawing method for particular shape. All shapes in this application are written using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
 Fractal dimension is displayed using lightweight HTML 5 browser embedded in bottom split pane of the application - this browser displays math formulas which are generated using __MathML__ language when new shape is displayed on graphical canvas. MathML syntax could be found [here](http://www.tutorialspoint.com/html5/html5_mathml.htm).
 
 ### Who do I talk to? ###
@@ -78,7 +78,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTI4ODUxOSwxNDMyNjM3NTc1LDEyOD
+eyJoaXN0b3J5IjpbMTk5NDc3NjQ3NiwxNDMyNjM3NTc1LDEyOD
 UwNzQwNjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEy
 NjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NT
 MsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05
