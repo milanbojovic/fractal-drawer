@@ -1,11 +1,10 @@
 # Fractal Drawer (visualizer) #
-
-## JavaFx GUI application for drawing fractal shapes ##
+ JavaFx GUI application for drawing fractal shapes
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ### What is this repository for? ###
 
-* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate forming of fractal shapes to students on department of mathematics. User interface allows iterat to generate some of famous fractal shapes iteratively step by step
+* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate forming of fractal shapes to students on department of mathematics. User interface allows iterating vizualization of some famous fractal shapes.
 
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
@@ -106,6 +105,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkzNDQxMzAsMTg4ODkxNjUxMCwtOT
-I4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMjYxNjE1NTMyLDE4ODg5MTY1MTAsLTkyOD
+I2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
