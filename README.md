@@ -5,6 +5,10 @@
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
 
+### What is this repository for? ###
+
+* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate forming of fractal shapes to students on department of mathematics. User interface allows iterating vizualization of some famous fractal shapes.
+* 
 ### How do I run and use this app? ###
 
 * In order to run this app. you must have Java JRE 1.7 or newer installed on your system (app. is platform independent - should run on Windows, Mac, Linux and other systems if Java is installed)
@@ -101,6 +105,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk4NjI4MjYsMTg4ODkxNjUxMCwtOT
+eyJoaXN0b3J5IjpbLTE3MjI1MTM5MTAsMTg4ODkxNjUxMCwtOT
 I4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
