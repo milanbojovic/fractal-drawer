@@ -15,7 +15,7 @@
 
 ### What is this repository for?
 
-* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate how fractal shapes are formed. User interface allows iterating vizualization of some famous fractal shapes.
+* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it's purpose is to demonstrate how fractal shapes are formed. User interface allows user to choose fractal shape and to observe vizualization step by step for famous fractal shapes.
 
   ### Installation
 Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) proceed with following steps:
@@ -124,7 +124,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgzNzMxNDEsLTExMjM4NjQ2ODcsLT
-k0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4
-ODI0NV19
+eyJoaXN0b3J5IjpbLTk3ODIxNTE2NSwtMTEyMzg2NDY4NywtOT
+Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
+MjQ1XX0=
 -->
