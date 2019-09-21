@@ -46,7 +46,7 @@ Run the app:
 |Sierpinski Carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-carpet.png)
 |Cantor Set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/cantor-set.png)
 |Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/koch-curve.png)
-|Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1)
+|Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve (Quadratic 2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
 |Dragon curve|![Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Dragon%20Curve/5.png)
@@ -114,7 +114,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI0MTUyMDMsLTE0MDkwMjgyOTAsLT
+eyJoaXN0b3J5IjpbLTE3MDQ1MjcxNjYsLTE0MDkwMjgyOTAsLT
 E2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2
 NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNj
 UxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
