@@ -45,7 +45,7 @@ Run the app:
 |Sierpinski carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
 |Cantor set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Cantor%20Set/1.png)
 |Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
-|Koch Curve (Squared 2)|[Koch Curve (Squared 2)]([https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png))
+|Koch Curve (Squared 2)|[Koch Curve (Squared 2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png
 |Dragon curve|
 |Dragon curve (double)|
 |Levy C curve|
@@ -66,7 +66,7 @@ Run the app:
 >>#####6.    Koch Curve (Quadratic_2)
 ![Koch Curve (Quadratic_2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
 >>#####7.    Dragon Curve
-![Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Dragon%20Curve/5.png)
+
 >>#####8.    Twin Dragon Curve
 ![Twin Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Twin%20Dragon%20Curve/t5.png)
 >>#####9. Levy C curve
@@ -111,7 +111,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzM2MzY4MSwxNDY1Njg5OTA1LDEyMD
+eyJoaXN0b3J5IjpbLTMxNDM4NjA5NiwxNDY1Njg5OTA1LDEyMD
 Y1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2
 NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
