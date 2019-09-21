@@ -9,10 +9,8 @@
 |Reqirement||
 |--|--|
 |Maven|![https://img.shields.io/badge/maven-3%2B-blue](https://img.shields.io/badge/maven-3%2B-blue)|
-|Java|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
-|pandas|![PyPI - Python Version](https://img.shields.io/badge/python-pandas-blue)|
-|sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
-|xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
+|Java|![https://img.shields.io/badge/javafx-11-blue](https://img.shields.io/badge/javafx-11-blue)|
+|JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
 Once you [install python and python-pip](https://www.makeuseof.com/tag/install-pip-for-python/) use pip to install other dependencies:
 
@@ -116,6 +114,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY3NTA3MjEsLTk0Nzc3MzkyOSwxOD
+eyJoaXN0b3J5IjpbLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxOD
 g4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
