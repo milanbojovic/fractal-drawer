@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ### Fractal_Drawer image ###
-![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
+![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
 
   ### Reqirements
 |Reqirement||
@@ -54,7 +54,7 @@ Run the app:
 |Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
 |Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
 |Koch Costline|![Koch Coastline](images/koch-coastline.png)
-|Mandelbrot Set|![Mandelbrot Set](images/koch-snowflake.png)
+|Mandelbrot Set|![Mandelbrot Set](images/mandelbrot-set.png)
 |Tree|![Tree](images/tree-basic.png)
 |Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
 |Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
@@ -113,7 +113,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjg4NDQ1NSwxMjg1MDc0MDY5LC00OT
+eyJoaXN0b3J5IjpbMTQzMjYzNzU3NSwxMjg1MDc0MDY5LC00OT
 EzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEz
 NTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Nj
 g3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00
