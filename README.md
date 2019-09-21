@@ -42,10 +42,10 @@ Run the app:
 |--|--|
 |Horizontal Circles|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/horizontal-circles.png)|
 |Horizontal and Vertical Circles|![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/vertical-circles.png)
-|Sierpinski Triangle|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-carpet.png)
-|Sierpinski Carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
+|Sierpinski Triangle|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-triangle.png)
+|Sierpinski Carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/sierpinski-carpet.png)
 |Cantor Set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/cantor-set.png)
-|Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
+|Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/images/koch-curve.png)
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve (Quadratic 2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
@@ -114,7 +114,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTIyMTQyMSwtMTQwOTAyODI5MCwtMT
+eyJoaXN0b3J5IjpbLTQ1NzIzMDc4MiwtMTQwOTAyODI5MCwtMT
 Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
 ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
 EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
