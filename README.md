@@ -12,9 +12,12 @@
 |Java|![https://img.shields.io/badge/java-11-blue](https://img.shields.io/badge/java-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
+  ### Installation
 Once you install [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) use following command to run app locally on any platform:
 
+    git clone git@github.com:milanbojovic/fractal-drawer.git
     mvn javafx:run
+    
 
 ### What is this repository for? ###
 
@@ -116,7 +119,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTkxNTEzMSwtMTEyMzg2NDY4NywtOT
-Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
-MjQ1XX0=
+eyJoaXN0b3J5IjpbOTQ5ODQzNDEyLC0xMTIzODY0Njg3LC05ND
+c3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgy
+NDVdfQ==
 -->
