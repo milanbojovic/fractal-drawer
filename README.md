@@ -12,7 +12,9 @@
 |Java|![https://img.shields.io/badge/java-11-blue](https://img.shields.io/badge/java-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
-Once you install [Maven](https://maven.apache.org/install.html) and [https://jdk.java.net/11/](https://jdk.java.net/11/) use following command to :
+Once you install [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) use following command to run app locally:
+
+    enter code here
 
 ### What is this repository for? ###
 
@@ -114,7 +116,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTE3NTEwNSwtMTEyMzg2NDY4NywtOT
-Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
-MjQ1XX0=
+eyJoaXN0b3J5IjpbNDY0MTcwNTA0LC0xMTIzODY0Njg3LC05ND
+c3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgy
+NDVdfQ==
 -->
