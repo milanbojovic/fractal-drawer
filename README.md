@@ -8,14 +8,13 @@
   ### Reqirements
 |Reqirement||
 |--|--|
-|Git|
-[https://img.shields.io/badge/git-blue](https://img.shields.io/badge/git-blue)
+|Git|![https://img.shields.io/badge/git-blue](https://img.shields.io/badge/git-blue)|
 |Maven|![https://img.shields.io/badge/maven-3%2B-blue](https://img.shields.io/badge/maven-3%2B-blue)|
 |Java|![https://img.shields.io/badge/java-11-blue](https://img.shields.io/badge/java-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
   ### Installation
-Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) use following command to run app locally on any platform:
+Once you install [Git](https://www.atlassian.com/git/tutorials/install-git), [Maven](https://maven.apache.org/install.html) and [JDK 11](https://jdk.java.net/11/) use following command to clone repo to your local d:
 
     git clone git@github.com:milanbojovic/fractal-drawer.git
     mvn javafx:run
@@ -121,7 +120,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgzNzYxMTcsLTExMjM4NjQ2ODcsLT
-k0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4
-ODI0NV19
+eyJoaXN0b3J5IjpbMjkyMTgzNDYwLC0xMTIzODY0Njg3LC05ND
+c3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgy
+NDVdfQ==
 -->
