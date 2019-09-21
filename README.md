@@ -68,8 +68,7 @@ Run the app:
 |Hilbert Curve|
 |TSquare|
 |Hexaflake|
->>#####1.   Sierpinski Triangle
-![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)
+
 >>#####2.   Sierpinski Carpet
 ![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
 >>#####3.     Cantor Set
@@ -128,7 +127,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMT
-IzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4
-NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjU2NTkxMDgsMTQ2NTY4OTkwNSwxMj
+A2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkx
+NjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
