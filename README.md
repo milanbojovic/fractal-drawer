@@ -9,7 +9,7 @@
 |Reqirement||
 |--|--|
 |Maven|![https://img.shields.io/badge/maven-3%2B-blue](https://img.shields.io/badge/maven-3%2B-blue)|
-|python|![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)|
+|Java|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 |pandas|![PyPI - Python Version](https://img.shields.io/badge/python-pandas-blue)|
 |sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
 |xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
@@ -116,6 +116,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTEyMTY4LC05NDc3NzM5MjksMTg4OD
-kxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTE0NTY3NTA3MjEsLTk0Nzc3MzkyOSwxOD
+g4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
