@@ -38,21 +38,10 @@ Run the app:
 >### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
 ### Fractal shapes supported
 
-
-|  |  |
-|--|--|
-|  |  |
-
-
-
 | Fractal shape |Visualization|
 |--|--|
 |Sierpinski triangle|![Sierpinski Triangle](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20triangle/5.png)|
-
-
-
-|Horizontal and vertical circles|
-|Sierpinski triangle|
+|Horizontal and vertical circles|![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Vertical%20Circles/1.png)
 |Sierpinski carpet|
 |Cantor set|
 |Koch Curve|
@@ -113,8 +102,6 @@ Run the app:
 ![Hexaflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Hexaflake/5.png)
 >>#####21. Horizontal Circles
 ![Horizontal Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Horizontal%20Circles/1.png)
->>#####22. Horizontal and Vertical Circles
-![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Vertical%20Circles/1.png)
 
 
 ### Implementation details ###
@@ -131,7 +118,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTg4MjA3NSwxNDY1Njg5OTA1LDEyMD
-Y1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2
-NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbLTE4OTU5NTg1MzUsMTQ2NTY4OTkwNSwxMj
+A2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkx
+NjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
