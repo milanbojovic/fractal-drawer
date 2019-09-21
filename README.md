@@ -50,18 +50,18 @@ Run the app:
 |**Koch Curve (Quadratic 2)**|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
 |**Dragon Curve**|![Dragon Curve](images/dragon-curve.png)
 |**Dragon Curve (double)**|![Dragon Curve Double](images/twin-dragon-curve.png)
-|Levy C curve|![Levy Curve](images/levy-curve.png)
-|Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
-|Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
-|Koch Costline|![Koch Coastline](images/koch-coastline.png)
-|Mandelbrot Set|![Mandelbrot Set](images/mandelbrot-set.png)
-|Tree|![Tree](images/tree-basic.png)
-|Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
-|Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
-|Pythagoras tree|![Pythagoras Tree](images/pythagoras-tree.png)
-|Hilbert Curve|![Hilbert Curve](images/hilbert-curve.png)
-|TSquare|![TSquare](images/t-square.png)
-|Hexaflake|![Hexaflake](images/hexaflake.png)
+|**Levy C curve**|![Levy Curve](images/levy-curve.png)
+|**Koch Snowflake**|![Koch Snowflake](images/koch-snowflake.png)
+|**Koch Anti Snowflake**|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
+|**Koch Costline**|![Koch Coastline](images/koch-coastline.png)
+|**Mandelbrot Set**|![Mandelbrot Set](images/mandelbrot-set.png)
+|**Tree**|![Tree](images/tree-basic.png)
+|**Tree 60 degree**|![Tree 60 degree](images/tree-60-degree.png)
+|**Tree 90 degree**|![Tree 90 degree](images/tree-90-degree.png)
+|**Pythagoras tree**|![Pythagoras Tree](images/pythagoras-tree.png)
+|**Hilbert Curve**|![Hilbert Curve](images/hilbert-curve.png)
+|**TSquare**|![TSquare](images/t-square.png)
+|**Hexaflake**|![Hexaflake](images/hexaflake.png)
 
 
 ### Implementation details
@@ -78,9 +78,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkyMTkyNDgsMTQzMjYzNzU3NSwxMj
-g1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUx
-MjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3ND
-UzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwt
-OTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTM4MTY4Nzk4NCwxNDMyNjM3NTc1LDEyOD
+UwNzQwNjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEy
+NjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NT
+MsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05
+MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
