@@ -48,17 +48,17 @@ Run the app:
 |Koch Curve|![Koch Curve](images/koch-curve.png)
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-1.png)
-|Dragon curve|![Dragon Curve](images/dragon-curve.png)
+|Dragon Curve|![Dragon Curve](images/dragon-curve.png)
 |Dragon Curve (double)|![Dragon Curve Double](images/twin-dragon-curve.png)
 |Levy C curve|![Levy Curve](images/levy-curve.png)
 |Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
 |Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
 |Koch Costline|![Koch Coastline](images/koch-coastline.png)
 |Mandelbrot Set|![Mandelbrot Set](images/koch-snowflake.png)
-|Tree|
-|Tree 60 degree|
-|Tree 90 degree|
-|Pythagoras tree|
+|Tree|![Tree](images/tree-basic.png)
+|Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
+|Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
+|Pythagoras tree|![Tree 60 degree](images/tree-90-degree.png)
 |Hilbert Curve|
 |TSquare|
 |Hexaflake|
@@ -113,7 +113,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIyMjEwNzYsLTQ5MTM4NDcyMiwtMT
+eyJoaXN0b3J5IjpbLTExNjg3MDg3MzAsLTQ5MTM4NDcyMiwtMT
 QwOTAyODI5MCwtMTY1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1
 Njg5OTA1LDEyMDY1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3Mz
 kyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
