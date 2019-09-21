@@ -44,7 +44,7 @@ Run the app:
 |Horizontal and vertical circles|![Horizontal and Vertical Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Vertical%20Circles/1.png)
 |Sierpinski carpet|![Sierpinski Carpet](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Sierpinski%20carpet/5.png)
 |Cantor set|![Cantor Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Cantor%20Set/1.png)
-|Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve/1.png)
+|Koch Curve|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master//Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png
 |Koch curve (squared 1)|![Koch Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/
 |Koch curve (squared 2)|
 |Dragon curve|
@@ -112,7 +112,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MzQ2NTc5LDE0NjU2ODk5MDUsMTIwNj
-U4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4ODg5MTY1
-MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
+eyJoaXN0b3J5IjpbLTEwNjM2NzM3NzUsMTQ2NTY4OTkwNSwxMj
+A2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkx
+NjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
