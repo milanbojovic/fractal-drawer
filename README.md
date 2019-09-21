@@ -1,6 +1,6 @@
-# Fractal Visualizer #
+# Fractal Drawer (visualizer) #
 
-## JavaFX GUI Application for drawing FRACTAL SHAPES ##
+## JavaFx GUI application for drawing fractal shapes ##
 
 ### What is this repository for? ###
 
@@ -107,5 +107,5 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE3OTYwODcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbLTE4NzgwMjIwMzksLTQ1OTE4ODI0NV19
 -->
