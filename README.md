@@ -8,7 +8,7 @@
   ### Reqirements
 |Reqirement||
 |--|--|
-|Maven|![PyPI - Python Version](https://img.shields.io/badge/python-pip-blue)|
+|Maven|![https://img.shields.io/badge/maven-3%2B-blue](https://img.shields.io/badge/maven-3%2B-blue)|
 |python|![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)|
 |pandas|![PyPI - Python Version](https://img.shields.io/badge/python-pandas-blue)|
 |sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
@@ -116,6 +116,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05Mj
-gyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbLTc2OTEyMTY4LC05NDc3NzM5MjksMTg4OD
+kxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
