@@ -5,9 +5,7 @@
 
 ### What is this repository for? ###
 
-* This JavaFx gui application for visualizing fractal images was written as my final graduation work on University of Electrical Engineering - Department of Computer Scien
-
-  It is used to demonstrate fractal geometry to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
+* This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate fractal forming theories to students. User interface allows student to generate some of famous fractal shapes iteratively step by step
 
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
@@ -108,6 +106,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjgzNjQzOSwxODg4OTE2NTEwLC05Mj
-gyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbNzcxOTQ2MjQ2LDE4ODg5MTY1MTAsLTkyOD
+I2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
