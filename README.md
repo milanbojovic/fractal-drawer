@@ -22,12 +22,7 @@ Clone git repository:
 Run the app:
 
     mvn javafx:run
-    
-
-1. Clone repository to your local dir:
-
-    mvn javafx:run
-    
+       
 
 ### What is this repository for? ###
 
@@ -130,7 +125,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjA1MDUyMSwtMTEyMzg2NDY4NywtOT
-Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
-MjQ1XX0=
+eyJoaXN0b3J5IjpbLTE3OTc3ODY3MjEsLTExMjM4NjQ2ODcsLT
+k0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4
+ODI0NV19
 -->
