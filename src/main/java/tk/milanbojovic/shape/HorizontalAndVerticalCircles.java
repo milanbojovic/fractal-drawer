@@ -1,4 +1,4 @@
-package shape;
+package tk.milanbojovic.shape;
 
 import javafx.scene.canvas.Canvas;
 import javafx.scene.web.WebView;

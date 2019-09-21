@@ -1,4 +1,4 @@
-package shape;
+package tk.milanbojovic.shape;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.canvas.Canvas;

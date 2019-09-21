@@ -1,7 +1,5 @@
-package code;
+package tk.milanbojovic;
 
-import javafx.beans.InvalidationListener;
-import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
@@ -17,7 +15,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-import shape.*;
+import tk.milanbojovic.shape.*;
 
 import java.net.URL;
 import java.util.ResourceBundle;

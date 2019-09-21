@@ -1,4 +1,4 @@
-package code;
+package tk.milanbojovic;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,7 +9,6 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.WindowEvent;
 
 /**
  * Created by milanbojovic on 11/14/15.
