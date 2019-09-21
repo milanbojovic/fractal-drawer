@@ -48,7 +48,6 @@ Run the app:
 |Koch Curve|![Koch Curve](images/koch-curve.png)
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-1.png)
-|Koch Curve (Quadratic 2)|![Koch Curve (Quadratic 2)](images/koch-curve-2.png)
 |Dragon curve|![Dragon Curve](images/dragon-curve.png)
 |Dragon curve (double)|
 |Levy C curve|
@@ -114,7 +113,7 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjYwNDY4OCwtMTQwOTAyODI5MCwtMT
+eyJoaXN0b3J5IjpbLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMT
 Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
 ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
 EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
