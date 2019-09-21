@@ -47,7 +47,7 @@ Run the app:
 |Cantor Set|![Cantor Set](images/cantor-set.png)
 |Koch Curve|![Koch Curve](images/koch-curve.png)
 |Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
-|Koch Curve (Quadratic 2)|![Koch Curve](images/koch-curve.png)
+|Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-1.png)
 |Koch Curve (Quadratic 2)|![Koch Curve (Quadratic 2)](images/koch-curve-2.png)
 |Dragon curve|![Dragon Curve](images/dragon-curve.png)
 |Dragon curve (double)|
@@ -114,8 +114,8 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MzM1MTc5LC0xNDA5MDI4MjkwLC0xNj
-U1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2ODk5MDUsMTIwNjU4
-NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4ODg5MTY1MT
-AsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
+eyJoaXN0b3J5IjpbMjEyMjYwNDY4OCwtMTQwOTAyODI5MCwtMT
+Y1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1
+ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NT
+EwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
