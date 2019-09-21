@@ -9,10 +9,10 @@
 |Reqirement||
 |--|--|
 |Maven|![https://img.shields.io/badge/maven-3%2B-blue](https://img.shields.io/badge/maven-3%2B-blue)|
-|Java|![https://img.shields.io/badge/javafx-11-blue](https://img.shields.io/badge/javafx-11-blue)|
+|Java|![https://img.shields.io/badge/java-11-blue](https://img.shields.io/badge/java-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
-Once you [install Maven](https://maven.apache.org/install.html) use following command  install other dependencies:
+Once you install [Maven](https://maven.apache.org/install.html) and [https://jdk.java.net/11/](https://jdk.java.net/11/) use following command to :
 
 ### What is this repository for? ###
 
@@ -114,7 +114,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDcwODQwMiwtMTEyMzg2NDY4NywtOT
+eyJoaXN0b3J5IjpbMTIyOTE3NTEwNSwtMTEyMzg2NDY4NywtOT
 Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
 MjQ1XX0=
 -->
