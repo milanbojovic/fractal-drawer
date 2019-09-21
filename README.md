@@ -12,7 +12,7 @@
 |Java|![https://img.shields.io/badge/javafx-11-blue](https://img.shields.io/badge/javafx-11-blue)|
 |JavaFx|![https://img.shields.io/badge/javafx-13-blue](https://img.shields.io/badge/javafx-13-blue)|
 
-Once you [install python and python-pip](https://www.makeuseof.com/tag/install-pip-for-python/) use pip to install other dependencies:
+Once you [install Maven](https://maven.apache.org/install.html) use following command  install other dependencies:
 
 ### What is this repository for? ###
 
@@ -114,6 +114,7 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM4NjQ2ODcsLTk0Nzc3MzkyOSwxOD
-g4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbMTM5MDcwODQwMiwtMTEyMzg2NDY4NywtOT
+Q3NzczOTI5LDE4ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4
+MjQ1XX0=
 -->
