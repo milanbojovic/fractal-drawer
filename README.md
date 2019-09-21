@@ -5,6 +5,17 @@
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/fractal-drawer-demonstration.gif)
 
+  ### Reqirements
+|Reqirement||
+|--|--|
+|Maven|![PyPI - Python Version](https://img.shields.io/badge/python-pip-blue)|
+|python|![PyPI - Python Version](https://img.shields.io/pypi/pyversions/3)|
+|pandas|![PyPI - Python Version](https://img.shields.io/badge/python-pandas-blue)|
+|sklearn|![PyPI - Python Version](https://img.shields.io/badge/python-sklearn-blue)|
+|xgboost|![PyPI - Python Version](https://img.shields.io/badge/python-xgboost-blue)|
+
+Once you [install python and python-pip](https://www.makeuseof.com/tag/install-pip-for-python/) use pip to install other dependencies:
+
 ### What is this repository for? ###
 
 * This JavaFx gui application for visualizing fractal images was written as my final graduation work, it is used to demonstrate forming of fractal shapes to students on department of mathematics. User interface allows iterating vizualization of some famous fractal shapes.
@@ -105,6 +116,6 @@ Email: milanbojovic@gmail.com
 LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI1MTM5MTAsMTg4ODkxNjUxMCwtOT
-I4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05Mj
+gyNjg0OTcsLTQ1OTE4ODI0NV19
 -->
