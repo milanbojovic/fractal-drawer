@@ -58,10 +58,10 @@ Run the app:
 |Tree|![Tree](images/tree-basic.png)
 |Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
 |Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
-|Pythagoras tree|![Tree 60 degree](images/tree-90-degree.png)
-|Hilbert Curve|
-|TSquare|
-|Hexaflake|
+|Pythagoras tree|![Pythagoras Tree](images/pythagoras-tree.png)
+|Hilbert Curve|![Hilbert Curve](images/hilbert-curve.png)
+|TSquare|![TSquare](images/t-square.png)
+|Hexaflake|![Hexaflake]
 
 >>#####5.     Koch Curve (Quadratic_1)
 ![Koch Curve (Quadratic_1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
@@ -113,9 +113,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg3MDg3MzAsLTQ5MTM4NDcyMiwtMT
-QwOTAyODI5MCwtMTY1NTEyNjQ4MSwtMTg1MTM1NjU2MiwxNDY1
-Njg5OTA1LDEyMDY1ODc0NTMsLTExMjM4NjQ2ODcsLTk0Nzc3Mz
-kyOSwxODg4OTE2NTEwLC05MjgyNjg0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbOTkwNTg1NDg0LC00OTEzODQ3MjIsLTE0MD
+kwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4
+OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5Mj
+ksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 
 -->
