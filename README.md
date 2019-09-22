@@ -1,6 +1,6 @@
 
 # Fractal Drawer (visualizer) #
- JavaFx GUI application for drawing fractal shapes
+ JavaFx GUI application for drawing fractal shapes  
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
 
 ### Fractal_Drawer image ###
