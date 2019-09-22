@@ -35,73 +35,40 @@ Run the app:
 * Click on button: __Level --__ to view previous iteration in fractal construction
 * Fractal dimension is displayed in bottom split pane
 
->### FRACTAL SHAPES LIST (which can be drawn in Fractal Drawer)
-### Fractal shapes supported
+
+### Shapes visualized
 
 | Fractal shape |Visualization|
 |--|--|
-|Horizontal Circles|![Horizontal Circles](images/horizontal-circles.png)
-|Horizontal and Vertical Circles|![Horizontal and Vertical Circles](images/vertical-circles.png)
-|Sierpinski Triangle|![Sierpinski Carpet](images/sierpinski-triangle.png)
-|Sierpinski Carpet|![Sierpinski Carpet](images/sierpinski-carpet.png)
-|Cantor Set|![Cantor Set](images/cantor-set.png)
-|Koch Curve|![Koch Curve](images/koch-curve.png)
-|Koch Curve (Quadratic 1)|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
-|Koch Curve (Quadratic 2)|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
-|Dragon Curve|![Dragon Curve](images/dragon-curve.png)
-|Dragon Curve (double)|![Dragon Curve Double](images/twin-dragon-curve.png)
-|Levy C curve|![Levy Curve](images/levy-curve.png)
-|Koch Snowflake|![Koch Snowflake](images/koch-snowflake.png)
-|Koch Anti Snowflake|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
-|Koch Costline|![Koch Coastline](images/koch-coastline.png)
-|Mandelbrot Set|![Mandelbrot Set](images/mandelbrot-set.png)
-|Tree|![Tree](images/tree-basic.png)
-|Tree 60 degree|![Tree 60 degree](images/tree-60-degree.png)
-|Tree 90 degree|![Tree 90 degree](images/tree-90-degree.png)
-|Pythagoras tree|![Pythagoras Tree](images/pythagoras-tree.png)
-|Hilbert Curve|![Hilbert Curve](images/hilbert-curve.png)
-|TSquare|![TSquare](images/t-square.png)
-|Hexaflake|![Hexaflake](images/hexaflake.png)
-
->>#####5.     Koch Curve (Quadratic_1)
-![Koch Curve (Quadratic_1)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_1)/1.png)
->>#####6.    Koch Curve (Quadratic_2)
-![Koch Curve (Quadratic_2)](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Curve%20(Quadratic_2)/1.png)
->>#####7.    Dragon Curve
-
->>#####8.    Twin Dragon Curve
-![Twin Dragon Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Twin%20Dragon%20Curve/t5.png)
->>#####9. Levy C curve
-![Levy C curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Levy%20Curve/5.png)
->>#####10. Koch Snowflake
-![Koch Snowflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Snowflake/1.png)
->>#####11. Koch Anti Snowflake
-![Koch Anti Snowflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Anti%20Snowflake/1.png)
->>#####12. Koch Coastline
-![Koch Coastline](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Koch%20Coastline/1.png)
->>#####13. Mandelbrot Set
-![Mandelbrot Set](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Mandelbrot%20set/Mandelbrot_set_app.png)
->>#####14. Tree
-![Tree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%20basic/5.png)
->>#####15. Tree 60 degree
-![Tree 60 degree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%2060%20degree/5.png)
->>#####16. Tree 90 degree
-![Tree 90 degree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/tree%2090%20degree/5.png)
->>#####17. Pythagoras tree
-![Pythagoras tree](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Pythagoras%20tree/5.png)
->>#####18. Hilbert Curve
-![Hilbert Curve](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Hilbert%20curve/5.png)
->>#####19. TSquare
-![TSquare](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/TSquare/5.png)
->>#####20. Hexaflake
-![Hexaflake](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Hexaflake/5.png)
->>#####21. Horizontal Circles
-![Horizontal Circles](https://raw.githubusercontent.com/milanbojovic/GUI_Fractal_Drawer_JAVA_FX/master/Fractal_images/Horizontal%20Circles/1.png)
+| **Horizontal Circles**|![Horizontal Circles](images/horizontal-circles.png)
+|**Horizontal and Vertical Circles**|![Horizontal and Vertical Circles](images/vertical-circles.png)
+|**Sierpinski Triangle**|![Sierpinski Carpet](images/sierpinski-triangle.png)
+|**Sierpinski Carpet**|![Sierpinski Carpet](images/sierpinski-carpet.png)
+|**Cantor Set**|![Cantor Set](images/cantor-set.png)
+|**Koch Curve**|![Koch Curve](images/koch-curve.png)
+|**Koch Curve (Quadratic 1)**|![Koch Curve Quadratic 1](images/koch-curve-quadratic-1.png)
+|**Koch Curve (Quadratic 2)**|![Koch Curve Quadratic 2](images/koch-curve-quadratic-2.png)
+|**Dragon Curve**|![Dragon Curve](images/dragon-curve.png)
+|**Dragon Curve (double)**|![Dragon Curve Double](images/twin-dragon-curve.png)
+|**Levy C curve**|![Levy Curve](images/levy-curve.png)
+|**Koch Snowflake**|![Koch Snowflake](images/koch-snowflake.png)
+|**Koch Anti Snowflake**|![Koch Anti Snowflake](images/koch-anti-snowflake.png)
+|**Koch Costline**|![Koch Coastline](images/koch-coastline.png)
+|**Mandelbrot Set**|![Mandelbrot Set](images/mandelbrot-set.png)
+|**Tree**|![Tree](images/tree-basic.png)
+|**Tree 60 degree**|![Tree 60 degree](images/tree-60-degree.png)
+|**Tree 90 degree**|![Tree 90 degree](images/tree-90-degree.png)
+|**Pythagoras tree**|![Pythagoras Tree](images/pythagoras-tree.png)
+|**Hilbert Curve**|![Hilbert Curve](images/hilbert-curve.png)
+|**TSquare**|![TSquare](images/t-square.png)
+|**Hexaflake**|![Hexaflake](images/hexaflake.png)
 
 
-### Implementation details ###
-Application is written using Java programming language using JavaFX framework (2.0), application look is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Package __`"code"`__ holds source code used for presentation layer (JavaFx). Package __`"shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just redefine drawing method for particular shape. All shapes in this application are written using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
+### Implementation details
+Application was written in Java using JavaFX framework, application's graphical interface is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Resoucre folder contains *.fxml* used in presentation layer (JavaFx). Package __`"tk.milanbojovic.shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just implementing drawing method for particular shape. All shapes in this application are calculating and drawing states using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
 Fractal dimension is displayed using lightweight HTML 5 browser embedded in bottom split pane of the application - this browser displays math formulas which are generated using __MathML__ language when new shape is displayed on graphical canvas. MathML syntax could be found [here](http://www.tutorialspoint.com/html5/html5_mathml.htm).
+
+Full pdf report can be found [here](report/master/Diplomski rad Milan Bojovic_final.pdf). (it is written in Serbian language!)
 
 ### Who do I talk to? ###
 
@@ -113,9 +80,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjYzNzU3NSwxMjg1MDc0MDY5LC00OT
-EzODQ3MjIsLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEz
-NTY1NjIsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Nj
-g3LC05NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00
-NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMTE4NDIzMjg1OCw4NTAzMDExNDUsMTQzMj
+YzNzU3NSwxMjg1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgy
+OTAsLTE2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNS
+wxMjA2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4
+ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
