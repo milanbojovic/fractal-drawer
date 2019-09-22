@@ -17,7 +17,7 @@
     - [Implementation details](#implementation-details)
     - [Who do I talk to?](#who-do-i-talk-to)
 
-  ### Reqirements
+### Reqirements
 |Reqirement||
 |--|--|
 |Git|![https://img.shields.io/badge/git-blue](https://img.shields.io/badge/git-blue)|
