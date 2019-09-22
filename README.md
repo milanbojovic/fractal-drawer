@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Fractal Drawer (visualizer)](#fractal-drawer-visualizer)
+    - [Fractal_Drawer image](#fractal_drawer-image)
+    - [Reqirements](#reqirements)
+    - [What is this repository for?](#what-is-this-repository-for)
+    - [How use this app?](#how-use-this-app)
+    - [Shapes visualized](#shapes-visualized)
+    - [Implementation details](#implementation-details)
+    - [Who do I talk to?](#who-do-i-talk-to)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Fractal Drawer (visualizer) #
  JavaFx GUI application for drawing fractal shapes
 ![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
