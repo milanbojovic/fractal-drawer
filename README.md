@@ -5,18 +5,6 @@
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
 
-- [Fractal Drawer (visualizer)](#fractal-drawer--visualizer-)
-    + [Fractal_Drawer image](#fractal-drawer-image)
-    + [Reqirements](#reqirements)
-    + [What is this repository for?](#what-is-this-repository-for-)
-    + [Installation and usage](#installation-and-usage)
-    + [How use this app?](#how-use-this-app-)
-    + [Shapes visualized](#shapes-visualized)
-    + [Implementation details](#implementation-details)
-    + [Who do I talk to?](#who-do-i-talk-to-)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
   ### Reqirements
 |Reqirement||
 |--|--|
@@ -92,10 +80,10 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTcyMDg4MCwtMTQ5NzUxNjU5MSw4NT
-AzMDExNDUsMTQzMjYzNzU3NSwxMjg1MDc0MDY5LC00OTEzODQ3
-MjIsLTE0MDkwMjgyOTAsLTE2NTUxMjY0ODEsLTE4NTEzNTY1Nj
-IsMTQ2NTY4OTkwNSwxMjA2NTg3NDUzLC0xMTIzODY0Njg3LC05
-NDc3NzM5MjksMTg4ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxOD
-gyNDVdfQ==
+eyJoaXN0b3J5IjpbLTYxMjI3MDQ0MCwtMjI5NzIwODgwLC0xND
+k3NTE2NTkxLDg1MDMwMTE0NSwxNDMyNjM3NTc1LDEyODUwNzQw
+NjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEyNjQ4MS
+wtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NTMsLTEx
+MjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNj
+g0OTcsLTQ1OTE4ODI0NV19
 -->
