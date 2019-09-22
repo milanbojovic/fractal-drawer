@@ -68,7 +68,7 @@ Run the app:
 Application was written in Java using JavaFX framework, application's graphical interface is completely described in __`"MainWindow.fxml"`__ file which can be easily modified using JavaFX Scene builder. Resoucre folder contains *.fxml* used in presentation layer (JavaFx). Package __`"tk.milanbojovic.shape"`__ holds source code for all fractal shapes - it mainly consists of `FractalShape` class which is base class and individual derived shape classes eg. __`PythagorasTree`__, __`Koch Curve`__ and others which just implementing drawing method for particular shape. All shapes in this application are calculating and drawing states using recursive methods with mechanism to stop recursion at desired level. New shapes could be added easily by deriving base class and redefining draw method.
 Fractal dimension is displayed using lightweight HTML 5 browser embedded in bottom split pane of the application - this browser displays math formulas which are generated using __MathML__ language when new shape is displayed on graphical canvas. MathML syntax could be found [here](http://www.tutorialspoint.com/html5/html5_mathml.htm).
 
-Full pdf report can be found [here](report/master/Diplomski rad Milan Bojovic_final.pdf). (it is written in Serbian language!)
+Full pdf report can be found ![here](report/Diplomski rad Milan Bojovic_final.pdf). (it is written in Serbian language!)
 
 ### Who do I talk to? ###
 
@@ -80,9 +80,9 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDIzMjg1OCw4NTAzMDExNDUsMTQzMj
-YzNzU3NSwxMjg1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgy
-OTAsLTE2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNS
-wxMjA2NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4
-ODkxNjUxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDA4NjAwMDgsODUwMzAxMTQ1LDE0Mz
+I2Mzc1NzUsMTI4NTA3NDA2OSwtNDkxMzg0NzIyLC0xNDA5MDI4
+MjkwLC0xNjU1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2ODk5MD
+UsMTIwNjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4
+ODg5MTY1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
