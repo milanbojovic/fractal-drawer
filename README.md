@@ -1,5 +1,11 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+# Fractal Drawer (visualizer) #
+ JavaFx GUI application for drawing fractal shapes
+![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
+
+### Fractal_Drawer image ###
+![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
+
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Fractal Drawer (visualizer)](#fractal-drawer-visualizer)
@@ -10,15 +16,6 @@
     - [Shapes visualized](#shapes-visualized)
     - [Implementation details](#implementation-details)
     - [Who do I talk to?](#who-do-i-talk-to)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Fractal Drawer (visualizer) #
- JavaFx GUI application for drawing fractal shapes
-![GitHub repo size](https://img.shields.io/github/repo-size/milanbojovic/fractal-drawer) ![GitHub](https://img.shields.io/github/license/milanbojovic/kaggle-kobe-bryant-shot-selection)
-
-### Fractal_Drawer image ###
-![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
 
   ### Reqirements
 |Reqirement||
@@ -95,10 +92,10 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjI3MDQ0MCwtMjI5NzIwODgwLC0xND
-k3NTE2NTkxLDg1MDMwMTE0NSwxNDMyNjM3NTc1LDEyODUwNzQw
-NjksLTQ5MTM4NDcyMiwtMTQwOTAyODI5MCwtMTY1NTEyNjQ4MS
-wtMTg1MTM1NjU2MiwxNDY1Njg5OTA1LDEyMDY1ODc0NTMsLTEx
-MjM4NjQ2ODcsLTk0Nzc3MzkyOSwxODg4OTE2NTEwLC05MjgyNj
-g0OTcsLTQ1OTE4ODI0NV19
+eyJoaXN0b3J5IjpbNTExOTQ0MzEyLC02MTIyNzA0NDAsLTIyOT
+cyMDg4MCwtMTQ5NzUxNjU5MSw4NTAzMDExNDUsMTQzMjYzNzU3
+NSwxMjg1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLT
+E2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2
+NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNj
+UxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
 -->
