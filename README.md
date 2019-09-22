@@ -6,6 +6,7 @@
 ### Fractal_Drawer image ###
 ![Fractal Drawer image](images/fractal-drawer-demonstration.gif)
 
+
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Fractal Drawer (visualizer)](#fractal-drawer-visualizer)
@@ -92,10 +93,10 @@ LinkedIn: https://rs.linkedin.com/in/mbojovic
 Skype: milanbojovic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExOTQ0MzEyLC02MTIyNzA0NDAsLTIyOT
-cyMDg4MCwtMTQ5NzUxNjU5MSw4NTAzMDExNDUsMTQzMjYzNzU3
-NSwxMjg1MDc0MDY5LC00OTEzODQ3MjIsLTE0MDkwMjgyOTAsLT
-E2NTUxMjY0ODEsLTE4NTEzNTY1NjIsMTQ2NTY4OTkwNSwxMjA2
-NTg3NDUzLC0xMTIzODY0Njg3LC05NDc3NzM5MjksMTg4ODkxNj
-UxMCwtOTI4MjY4NDk3LC00NTkxODgyNDVdfQ==
+eyJoaXN0b3J5IjpbMTE4MzU5ODUwMiwtNjEyMjcwNDQwLC0yMj
+k3MjA4ODAsLTE0OTc1MTY1OTEsODUwMzAxMTQ1LDE0MzI2Mzc1
+NzUsMTI4NTA3NDA2OSwtNDkxMzg0NzIyLC0xNDA5MDI4MjkwLC
+0xNjU1MTI2NDgxLC0xODUxMzU2NTYyLDE0NjU2ODk5MDUsMTIw
+NjU4NzQ1MywtMTEyMzg2NDY4NywtOTQ3NzczOTI5LDE4ODg5MT
+Y1MTAsLTkyODI2ODQ5NywtNDU5MTg4MjQ1XX0=
 -->
