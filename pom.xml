@@ -9,6 +9,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <javaFxVersion>17.0.9</javaFxVersion>
+        <jpro.version>2024.1.4</jpro.version>
     </properties>
     <dependencies>
         <dependency>
@@ -48,8 +49,48 @@
                 <version>0.0.8</version>
                 <configuration>
                     <mainClass>tk.milanbojovic.App</mainClass>
+                    <jvmArgs>
+                        <jvmArg>-Djavafx.cachedir=${project.build.directory}/javafx-cache</jvmArg>
+                    </jvmArgs>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>jpro</id>
+            <repositories>
+                <repository>
+                    <id>jpro-public</id>
+                    <url>https://maven.jpro.one/repository/public/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>jpro-public-plugins</id>
+                    <url>https://maven.jpro.one/repository/public/</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <dependencies>
+                <dependency>
+                    <groupId>one.jpro</groupId>
+                    <artifactId>jpro-webapi</artifactId>
+                    <version>${jpro.version}</version>
+                    <scope>provided</scope>
+                </dependency>
+            </dependencies>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>one.jpro</groupId>
+                        <artifactId>jpro-maven-plugin</artifactId>
+                        <version>${jpro.version}</version>
+                        <configuration>
+                            <appClass>tk.milanbojovic.App</appClass>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

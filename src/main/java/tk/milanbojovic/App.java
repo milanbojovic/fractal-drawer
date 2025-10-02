@@ -7,6 +7,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * JavaFX App
@@ -17,6 +20,16 @@ public class App extends Application {
 
     public final int SCREEN_WIDTH   = 1024;
     public final int SCREEN_HEIGHT  = 768;
+
+    static {
+        Path cacheDir = Paths.get(System.getProperty("user.dir"), "target", "javafx-cache");
+        try {
+            Files.createDirectories(cacheDir);
+            System.setProperty("javafx.cachedir", cacheDir.toString());
+        } catch (IOException e) {
+            System.err.println("Unable to prepare JavaFX cache dir: " + e.getMessage());
+        }
+    }
 
     @Override
     public void start(Stage stage) throws IOException {
